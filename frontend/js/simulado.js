@@ -18,7 +18,7 @@ const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
 const finishBtn = document.getElementById('finishBtn');
 
-// Mostra/oculta idioma
+// Mostrar/ocultar idioma
 disciplinaSelect.addEventListener('change', () => {
   idiomaLabel.style.display = disciplinaSelect.value === 'linguagens' ? 'block' : 'none';
 });
@@ -36,7 +36,7 @@ async function loadYears() {
 }
 loadYears();
 
-// Fetch de questões
+// Buscar questões
 async function fetchQuestions(year, discipline, language, offset=0, limit=50){
   try{
     const url = new URL(`${API_ENEM}/exams/${year}/questions`);
@@ -65,8 +65,8 @@ startBtn.addEventListener('click', async () => {
     questions = [...await fetchQuestions(year, discipline, language, 0, 50),
                  ...await fetchQuestions(year, discipline, language, 50, 40)];
   } else {
-    questions = [...await fetchQuestions(year, discipline, null, 91, 50),
-                 ...await fetchQuestions(year, discipline, null, 140, 40)];
+    questions = [...await fetchQuestions(year, discipline, null, 0, 50),
+                 ...await fetchQuestions(year, discipline, null, 50, 40)];
   }
 
   if(!questions.length){ alert('Nenhuma questão encontrada.'); return; }
@@ -154,35 +154,62 @@ finishBtn.addEventListener('click', e => {
 async function finishExam(){
   clearInterval(state.timerId);
 
-  const correct = state.questions.reduce((acc, q, i) => {
+  let correct=0, wrong=0, blank=0;
+  state.questions.forEach((q,i)=>{
     const chosen = state.answers[i];
     const right = q.correctAlternative || q.answer;
-    return acc + (chosen && chosen.toUpperCase() === right.toUpperCase() ? 1 : 0);
-  }, 0);
+    if(chosen){
+      if(chosen.toUpperCase()===right.toUpperCase()) correct++;
+      else wrong++;
+    } else blank++;
+  });
 
-  const nota = Math.round((correct / state.questions.length) * 1000);
+  const nota = Math.round((correct/state.questions.length)*1000);
 
-  // Salvar resultado no backend
   const user = JSON.parse(localStorage.getItem('simulado_user') || 'null');
   if(user){
-    try {
+    try{
       await fetch(`${BACKEND}/saveResult`, {
         method: 'POST',
-        headers: { 'Content-Type':'application/json' },
+        headers: {'Content-Type':'application/json'},
         body: JSON.stringify({
           username: user.username,
           result: {
             date: new Date().toISOString(),
             discipline: disciplinaSelect.value,
             score: nota,
-            correct,
+            correct, wrong, blank,
             total: state.questions.length
           }
         })
       });
-    } catch(e) { console.error(e); }
+    } catch(e){
+      console.error('Erro ao salvar:', e);
+      alert('Não foi possível salvar o resultado.');
+      return;
+    }
   }
 
-  // Redireciona direto para desempenho
+  // Redirecionar para desempenho
   window.location.href = '/ProjetoEnem/frontend/desempenho.html';
+}
+
+// Reset SPA
+document.addEventListener('click', e => {
+  if(e.target && e.target.id==='restartBtn'){
+    e.preventDefault();
+    e.stopPropagation();
+    resetExam();
+  }
+});
+
+function resetExam(){
+  state.questions=[]; state.answers={}; state.idx=0; state.timeLeft=TIME_SECONDS;
+  clearInterval(state.timerId); state.timerId=null;
+  simuladoDiv.classList.add('hidden');
+  document.getElementById('config').classList.remove('hidden');
+  questaoContainer.innerHTML=''; timerDiv.textContent='00:00:00';
+  prevBtn.disabled = nextBtn.disabled = finishBtn.disabled = false;
+  anoSelect.selectedIndex = disciplinaSelect.selectedIndex = idiomaSelect.selectedIndex = 0;
+  idiomaLabel.style.display='block';
 }

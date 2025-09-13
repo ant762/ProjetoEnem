@@ -15,8 +15,11 @@ app.use(cors({
 
 const USERS_FILE = path.join(__dirname, 'users.json');
 
+// Cria arquivo vazio se não existir
+if(!fs.existsSync(USERS_FILE)) fs.writeFileSync(USERS_FILE, JSON.stringify([]));
+
+// Funções auxiliares
 function loadUsers(){
-  if(!fs.existsSync(USERS_FILE)) return [];
   try { return JSON.parse(fs.readFileSync(USERS_FILE, 'utf8')); }
   catch(e){ return []; }
 }
@@ -59,11 +62,23 @@ app.post('/api/login', (req, res) => {
 app.post('/api/saveResult', (req, res) => {
   const { username, result } = req.body;
   if(!username || !result) return res.status(400).json({ error: 'username e result necessários' });
+
   const users = loadUsers();
   const user = users.find(u => u.username === username);
   if(!user) return res.status(404).json({ error: 'Usuário não encontrado' });
+
+  // Garantir que todas as propriedades existam
   user.history = user.history || [];
-  user.history.push(result);
+  user.history.push({
+    date: result.date || new Date().toISOString(),
+    discipline: result.discipline || '',
+    score: result.score || 0,
+    correct: result.correct || 0,
+    wrong: result.wrong || 0,
+    blank: result.blank || 0,
+    total: result.total || 0
+  });
+
   saveUsers(users);
   return res.json({ message: 'Resultado salvo' });
 });
@@ -73,7 +88,7 @@ app.get('/api/history/:username', (req, res) => {
   const users = loadUsers();
   const user = users.find(u => u.username === req.params.username);
   if(!user) return res.status(404).json({ error: 'Usuário não encontrado' });
-  return res.json({ history: user.history || [] });
+  return res.json(user.history || []);
 });
 
 /* Health check */

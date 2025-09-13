@@ -4,7 +4,7 @@ Este projeto é uma aplicação web desenvolvida para auxiliar estudantes na pre
 
 ## Estrutura do Projeto
 
-A estrutura principal do projeto pode ser visualizada [aqui no GitHub](https://github.com/ant762/ProjetoEnem/tree/main/ProjetoEnem):
+A estrutura principal do projeto pode ser visualizada [aqui no GitHub](https://github.com/ant762/ProjetoEnem/tree/main/backend):
 
 ```
 ProjetoEnem/

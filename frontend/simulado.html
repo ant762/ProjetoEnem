@@ -5,10 +5,9 @@
   <title>Simulado ENEM</title>
   <link rel="stylesheet" href="/ProjetoEnem/frontend/css/simulado.css">
 </head>
-
 <body>
   <header>
-    <h1>TABELA DE SIMULADO</h1>
+    <h1>Simulado ENEM</h1>
     <nav>
       <a href="/ProjetoEnem/frontend/dashboard.html">Início</a>
       <a href="/ProjetoEnem/frontend/simulado.html">Simulado</a>
@@ -18,7 +17,8 @@
     </nav>
   </header>
 
-  <div id="config">
+  <!-- CONFIGURAÇÃO -->
+  <section id="config">
     <label>Ano:
       <select id="anoSelect"></select>
     </label>
@@ -37,18 +37,20 @@
       </select>
     </label>
 
-    <button id="startBtn">Iniciar Prova</button>
-  </div>
+    <button id="startBtn" type="button">Iniciar Prova</button>
+  </section>
 
-  <div id="simulado" class="hidden">
+  <!-- SIMULADO -->
+  <section id="simulado" class="hidden">
     <div id="timer">00:00:00</div>
-    <div id="questaoContainer"></div>
+    <div id="questaoContainer" class="scrollable"></div>
+
     <div class="navegacao">
-      <button id="prevBtn">⟵ Anterior</button>
-      <button id="nextBtn">Próxima ⟶</button>
-      <button id="finishBtn" class="finish">Finalizar</button>
+      <button id="prevBtn" type="button">⟵ Anterior</button>
+      <button id="nextBtn" type="button">Próxima ⟶</button>
+      <button id="finishBtn" type="button">Finalizar</button>
     </div>
-  </div>
+  </section>
 
   <script src="/ProjetoEnem/frontend/js/simulado.js"></script>
 </body>

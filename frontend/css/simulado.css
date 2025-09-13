@@ -17,22 +17,14 @@
   padding: 0;
 }
 
-.resultado-final{
-  background-color:#081226;
-  color: #291d4b;
-  padding:20px;
-  border-radius:10px;
-  box-shadow:0 0 10px rgba(0,0,0,0.2);
-  max-height:400px;
-  overflow-y:auto;
-}
-
-.report-container{
-  color: #e6eef8;
-  padding:10px;
-  background-color:#081226;
-  margin-top:15px;
-}
+.hidden { display: none; }
+.scrollable { max-height: 70vh; overflow-y: auto; padding: 10px; }
+.questao { margin-bottom: 20px; }
+.questao-img { max-width: 100%; display: block; margin: 10px 0; }
+.alt { margin: 5px 0; display: block; width: 100%; background-color: #005fa3;}
+.navegacao button { margin: 5px; }
+.resultado-final { padding: 10px; border: 1px solid #ccc; border-radius: 6px; background: #f9f9f9; }
+.report-container { max-height: 200px; overflow-y: auto; margin-top: 10px; }
 
 .report-line{
   background-color:#081226;
@@ -119,6 +111,18 @@ main {
   margin-top: 4px;
 }
 
+#anoSelect option {
+  background: var(--card);
+}
+
+#disciplinaSelect option {
+  background: var(--card);
+}
+
+#idiomaSelect option {
+  background: var(--card);
+}
+
 #config button {
   background: var(--accent);
   border: none;
@@ -135,10 +139,6 @@ main {
   background: var(--accent-2);
 }
 
-.hidden {
-  display: none;
-}
-
 #timer {
   font-weight: 700;
   margin-bottom: 12px;
@@ -151,12 +151,6 @@ main {
   gap: 14px;
 }
 
-.questao {
-  background: var(--card);
-  padding: 16px;
-  border-radius: var(--radius);
-  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
-}
 
 .questao h3 {
   margin-bottom: 8px;
@@ -233,14 +227,6 @@ footer {
   margin-bottom: 5px;
 }
 
-.navegacao {
-  margin-top: 15px;
-  display: flex;
-  gap: 10px;
-  justify-content: flex-start;
-}
-
-
 /* Responsivo */
 @media(max-width:980px){
   header, main {
@@ -252,14 +238,6 @@ footer {
     gap: 6px;
   }
 }
-
-.questao-img {
-  max-width: 100%;
-  margin: 12px 0;
-  border-radius: 8px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
-}
-
 
 #questaoContainer {
   display: flex;
@@ -277,17 +255,6 @@ footer {
   line-height: 1.5;
 }
 
-.alt {
-  display: block;
-  margin: 6px 0;
-  padding: 12px;
-  border-radius: var(--radius);
-  background: var(--glass);
-  cursor: pointer;
-  transition: 0.2s;
-  text-align: left;
-  border: 1px solid rgba(255,255,255,0.08);
-}
 
 .alt:hover {
   background: rgba(96,165,250,0.15);

@@ -1,5 +1,6 @@
 const API_ENEM = 'https://api.enem.dev/v1';
-const TOTAL_QUESTIONS = 90; // número de questões por bloco
+const BACKEND = 'http://localhost:3000/api';
+const TOTAL_QUESTIONS = 90;
 const TIME_SECONDS = 5 * 3600;
 
 let state = { questions: [], answers: {}, idx: 0, timeLeft: TIME_SECONDS, timerId: null };
@@ -17,7 +18,7 @@ const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
 const finishBtn = document.getElementById('finishBtn');
 
-// Mostrar/ocultar idioma
+// Mostra/oculta idioma
 disciplinaSelect.addEventListener('change', () => {
   idiomaLabel.style.display = disciplinaSelect.value === 'linguagens' ? 'block' : 'none';
 });
@@ -27,187 +28,161 @@ async function loadYears() {
   try {
     const res = await fetch(`${API_ENEM}/exams`);
     const data = await res.json();
-    const years = [...new Set(data.map(e => e.year))].sort((a, b) => b - a);
-    years.forEach(y => { 
-      const opt = document.createElement('option'); 
-      opt.value = y; 
-      opt.textContent = y; 
-      anoSelect.appendChild(opt); 
-    });
+    const years = [...new Set(data.map(e => e.year))].sort((a,b) => b-a);
+    years.forEach(y => anoSelect.appendChild(new Option(y, y)));
   } catch {
-    for (let y = 2024; y >= 2009; y--) { 
-      const opt = document.createElement('option'); 
-      opt.value = y; 
-      opt.textContent = y; 
-      anoSelect.appendChild(opt); 
-    }
+    for(let y=2024; y>=2009; y--) anoSelect.appendChild(new Option(y, y));
   }
 }
 loadYears();
 
-// Função para buscar questões com offset e limit
-async function fetchQuestions(year, discipline, language, offset = 0, limit = 50) {
-  try {
+// Fetch de questões
+async function fetchQuestions(year, discipline, language, offset=0, limit=50){
+  try{
     const url = new URL(`${API_ENEM}/exams/${year}/questions`);
     url.searchParams.set('limit', limit);
     url.searchParams.set('offset', offset);
     url.searchParams.set('discipline', discipline);
-    if (language) url.searchParams.set('language', language);
-
+    if(language) url.searchParams.set('language', language);
     const res = await fetch(url);
     const data = await res.json();
     return data.questions || [];
-  } catch (e) {
-    console.warn("Erro ao buscar questões:", e);
-    return [];
-  }
+  } catch(e){ console.warn(e); return []; }
 }
 
 // Iniciar prova
 startBtn.addEventListener('click', async () => {
   const year = parseInt(anoSelect.value);
   const discipline = disciplinaSelect.value;
-  let language = idiomaSelect.value;
-
-  // Ajuste de idioma
-  if (discipline !== 'linguagens') language = null;
-  else if (year < 2024) language = null; // apenas português antes de 2024
-  else if (language === 'english') language = 'ingles';
-  else if (language === 'spanish') language = 'espanhol';
-  else language = null;
+  let language = disciplinaSelect.value === 'linguagens' 
+                 ? idiomaSelect.value.toLowerCase() === 'english' ? 'ingles'
+                 : idiomaSelect.value.toLowerCase() === 'spanish' ? 'espanhol'
+                 : null 
+                 : null;
 
   let questions = [];
-
-  if (discipline === 'linguagens') {
-    // Linguagens/Humanas: questões 1 a 90 (offset 0)
-    questions = questions.concat(await fetchQuestions(year, discipline, language, 0, 50));
-    questions = questions.concat(await fetchQuestions(year, discipline, language, 50, 40));
+  if(discipline==='linguagens'){
+    questions = [...await fetchQuestions(year, discipline, language, 0, 50),
+                 ...await fetchQuestions(year, discipline, language, 50, 40)];
   } else {
-    // Matemática/Ciências da Natureza: questões 91 a 180 (offset 90)
-    questions = questions.concat(await fetchQuestions(year, discipline, null, 91, 50));
-    questions = questions.concat(await fetchQuestions(year, discipline, null, 140, 40));
+    questions = [...await fetchQuestions(year, discipline, null, 91, 50),
+                 ...await fetchQuestions(year, discipline, null, 140, 40)];
   }
+
+  if(!questions.length){ alert('Nenhuma questão encontrada.'); return; }
 
   state.questions = questions.slice(0, TOTAL_QUESTIONS);
-
-  if (!state.questions.length) {
-    alert('Nenhuma questão encontrada para essa configuração.');
-    return;
-  }
+  state.idx = 0;
+  state.answers = {};
+  state.timeLeft = TIME_SECONDS;
 
   document.getElementById('config').classList.add('hidden');
   simuladoDiv.classList.remove('hidden');
-  state.idx = 0;
 
   renderQuestion();
   startTimer();
 });
 
-// Renderizar questões
-function parseQuestionContext(text) {
-  if (!text) return '';
-
-  // Substituir Markdown ![](URL) por <img>
-  let html = text.replace(/!\[.*?\]\((https?:\/\/[^\s)]+)\)/gi, (_, url) => {
-    return `<img src="${url}" class="questao-img" alt="Imagem">`;
-  });
-
-  // Substituir URLs soltas por <img>, mas ignorar já convertidas
-  html = html.replace(/(^|\s)(https?:\/\/[^\s)]+?\.(?:png|jpe?g|gif))(\s|$)/gi, (m, p1, url, p3) => {
-    // se já existe <img src="URL"> no texto, ignora
-    if (html.includes(`<img src="${url}"`)) return m;
-    return `${p1}<img src="${url}" class="questao-img" alt="Imagem">${p3}`;
-  });
-
+// Renderizar questão
+function parseQuestionContext(text){
+  if(!text) return '';
+  let html = text.replace(/!\[.*?\]\((https?:\/\/[^\s)]+)\)/gi, (_, url)=>`<img src="${url}" class="questao-img" alt="Imagem">`);
+  html = html.replace(/(^|\s)(https?:\/\/[^\s)]+?\.(?:png|jpe?g|gif))(\s|$)/gi, (m,p1,url,p3)=> html.includes(`<img src="${url}"`) ? m : `${p1}<img src="${url}" class="questao-img" alt="Imagem">${p3}`);
   return html;
 }
 
-
-function renderQuestion() {
-  questaoContainer.innerHTML = '';
+function renderQuestion(){
   const q = state.questions[state.idx];
-  if (!q) return;
+  if(!q) return;
 
-  const div = document.createElement('div');
-  div.className = 'questao';
-  div.innerHTML = `<h3>${q.title || `Questão ${state.idx + 1}`}</h3>
-                   <p>${parseQuestionContext(q.context)}</p>
-                   <p><em>${q.alternativesIntroduction || ''}</em></p>`;
+  questaoContainer.innerHTML = `
+    <div class="questao">
+      <h3>${q.title || `Questão ${state.idx+1}`}</h3>
+      <p>${parseQuestionContext(q.context)}</p>
+      <p><em>${q.alternativesIntroduction||''}</em></p>
+      <div>${q.alternatives.map(a=>`
+        <button type="button" class="alt ${state.answers[state.idx]===a.letter?'selected':''}" data-letter="${a.letter}">
+          ${a.letter} - ${a.text||''}
+        </button>`).join('')}
+      </div>
+    </div>
+  `;
 
-  const altDiv = document.createElement('div');
-  if (Array.isArray(q.alternatives)) {
-    q.alternatives.forEach(a => {
-      const btn = document.createElement('button');
-      btn.className = 'alt';
-      btn.textContent = `${a.letter} - ${a.text || ''}`;
-      if (state.answers[state.idx] === a.letter) btn.classList.add('selected');
-      btn.addEventListener('click', () => { state.answers[state.idx] = a.letter; renderQuestion(); });
-      altDiv.appendChild(btn);
+  questaoContainer.querySelectorAll('.alt').forEach(btn=>{
+    btn.addEventListener('click', ()=> {
+      state.answers[state.idx] = btn.dataset.letter;
+      renderQuestion();
     });
-  }
-  div.appendChild(altDiv);
-  questaoContainer.appendChild(div);
+  });
 
-  prevBtn.disabled = state.idx === 0;
-  nextBtn.disabled = state.idx === state.questions.length - 1;
+  prevBtn.disabled = state.idx===0;
+  nextBtn.disabled = state.idx===state.questions.length-1;
 }
 
 // Navegação
-prevBtn.addEventListener('click', () => { if (state.idx > 0) { state.idx--; renderQuestion(); } });
-nextBtn.addEventListener('click', () => { if (state.idx < state.questions.length - 1) { state.idx++; renderQuestion(); } });
-finishBtn.addEventListener('click', finishExam);
+prevBtn.addEventListener('click', ()=> { if(state.idx>0){ state.idx--; renderQuestion(); } });
+nextBtn.addEventListener('click', ()=> { if(state.idx<state.questions.length-1){ state.idx++; renderQuestion(); } });
 
 // Timer
-function startTimer() {
+function startTimer(){
   renderTimer();
-  state.timerId = setInterval(() => {
+  clearInterval(state.timerId);
+  state.timerId = setInterval(()=>{
     state.timeLeft--;
     renderTimer();
-    if (state.timeLeft <= 0) { clearInterval(state.timerId); finishExam(); }
-  }, 1000);
+    if(state.timeLeft<=0){
+      clearInterval(state.timerId);
+      timerDiv.textContent = '00:00:00 (Tempo esgotado)';
+      finishExam();
+    }
+  },1000);
 }
-function renderTimer() {
-  const t = Math.max(0, state.timeLeft);
-  const h = Math.floor(t / 3600), m = Math.floor((t % 3600) / 60), s = t % 60;
+
+function renderTimer(){
+  const t = Math.max(0,state.timeLeft);
+  const h = Math.floor(t/3600), m=Math.floor((t%3600)/60), s=t%60;
   timerDiv.textContent = `${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
 }
 
 // Finalizar prova
-function finishExam() {
-  clearInterval(state.timerId);
-  let correct = 0, wrong = 0, report = [];
+finishBtn.addEventListener('click', e => {
+  e.preventDefault();
+  e.stopPropagation();
+  finishExam();
+});
 
-  state.questions.forEach((q, i) => {
+async function finishExam(){
+  clearInterval(state.timerId);
+
+  const correct = state.questions.reduce((acc, q, i) => {
     const chosen = state.answers[i];
     const right = q.correctAlternative || q.answer;
-    if (chosen) {
-      if (chosen.toUpperCase() === right.toUpperCase()) { correct++; report.push(`Questão ${i + 1}: ✅ Correta (${chosen})`); }
-      else { wrong++; report.push(`Questão ${i + 1}: ❌ Errada (Você: ${chosen}, Correta: ${right})`); }
-    } else { wrong++; report.push(`Questão ${i + 1}: ⚠️ Em branco (Correta: ${right})`); }
-  });
+    return acc + (chosen && chosen.toUpperCase() === right.toUpperCase() ? 1 : 0);
+  }, 0);
 
   const nota = Math.round((correct / state.questions.length) * 1000);
 
-  questaoContainer.innerHTML = `
-    <div class="resultado-final">
-      <h2>Resultado Final</h2>
-      <p><strong>Acertos:</strong> ${correct}</p>
-      <p><strong>Erros/Branco:</strong> ${wrong}</p>
-      <p><strong>Nota estimada:</strong> ${nota}</p>
-      <div class="report-container">
-        ${report.map(r => `<div class="report-line">${r}</div>`).join('')}
-      </div>
-    </div>`;
+  // Salvar resultado no backend
+  const user = JSON.parse(localStorage.getItem('simulado_user') || 'null');
+  if(user){
+    try {
+      await fetch(`${BACKEND}/saveResult`, {
+        method: 'POST',
+        headers: { 'Content-Type':'application/json' },
+        body: JSON.stringify({
+          username: user.username,
+          result: {
+            date: new Date().toISOString(),
+            discipline: disciplinaSelect.value,
+            score: nota,
+            correct,
+            total: state.questions.length
+          }
+        })
+      });
+    } catch(e) { console.error(e); }
+  }
 
-  prevBtn.disabled = true;
-  nextBtn.disabled = true;
-  finishBtn.disabled = true;
-
-  const navDiv = document.querySelector('.navegacao');
-  const restartBtn = document.createElement('button');
-  restartBtn.id = 'restartBtn';
-  restartBtn.textContent = 'Voltar ao Início';
-  restartBtn.classList.add('alt');
-  restartBtn.addEventListener('click', () => window.location.href = '/ProjetoEnem/frontend/dashboard.html');
-  navDiv.appendChild(restartBtn);
+  // Redireciona direto para desempenho
+  window.location.href = '/ProjetoEnem/frontend/desempenho.html';
 }

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Simulado ENEM — Login</title>
+  <link rel="stylesheet" href="/ProjetoEnem/frontend/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <div class="logo">EN</div>
+      <div class="brand-text">
+        <div class="title">Simulado ENEM</div>
+        <div class="subtitle">Pratique provas oficiais — integrado com api.enem.dev</div>
+      </div>
+    </div>
+
+    <nav class="main-nav">
+      <a href="/ProjetoEnem/frontend/dashboard.html" class="nav-link">Dashboard</a>
+      <a href="/ProjetoEnem//frontend/simulado.html" class="nav-link">Simulado</a>
+      <a href="/ProjetoEnem/frontend/redacao.html" class="nav-link">Redação</a>
+      <a href="/ProjetoEnem/frontend/desempenho.html"  class="nav-link">Desempenho</a>
+    </nav>
+
+    <div class="header-actions">
+      <button id="btnTheme" class="icon-btn">Tema</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card auth-card">
+      <h2>Entrar</h2>
+      <form id="loginForm" class="form">
+        <label>Usuário</label>
+        <input id="username" type="text" placeholder="seuusuario" required />
+        <label>Senha</label>
+        <input id="password" type="password" placeholder="senha" required />
+        <div class="form-row">
+          <button type="submit" class="btn">Entrar</button>
+          <button type="button" id="registerBtn" class="btn outline">Registrar</button>
+        </div>
+      </form>
+      <div id="message" class="muted"></div>
+    </section>
+
+    <aside class="card info-card">
+      <h3>Benefícios</h3>
+      <ul>
+        <li>Escolha de provas desde 2009</li>
+        <li>Cadernos (amarela / cinza / vermelha) e modo randômico</li>
+        <li>Salvamento de histórico no servidor</li>
+        <li>Página de desempenho com gráficos</li>
+      </ul>
+      <div class="muted small">Frontend estático + backend em Node.js (prototipo).</div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div>Dados: <a href="https://api.enem.dev" target="_blank">api.enem.dev</a> · Gerado com suporte ChatGPT · <a href="https://github.com/ant762" target="_blank">@ant762</a></div>
+    <div class="muted small">Protótipo — não use em produção sem revisar segurança.</div>
+  </footer>
+
+  <script src="/ProjetoEnem/frontend/js/auth.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Redação ENEM</title>
+  <link rel="stylesheet" href="/ProjetoEnem/frontend/css/redacao.css">
+</head>
+<body>
+  <header>
+    <h1>Redação</h1>
+    <nav>
+      <a href="/ProjetoEnem/frontend/dashboard.html">Início</a>
+      <a href="/ProjetoEnem/frontend/simulado.html">Simulado</a>
+      <a href="/ProjetoEnem/frontend/redacao.html">Redação</a>
+      <a href="/ProjetoEnem/frontend/desempenho.html">Desempenho</a>
+      <a href="/ProjetoEnem/frontend/index.html">Sair</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Tema da Redação</h2>
+    <p id="tema"></p>
+    <button id="gerarTemaBtn">Gerar Tema</button>
+    <button id="iniciarRedacaoBtn">Iniciar Redação</button>
+    <div id="redacaoContainer" class="hidden">
+      <div id="redacaoTimer"></div>
+      <textarea placeholder="Rascunho da sua redação..." id="rascunho"></textarea>
+      <button id="finalizarRedacaoBtn">Finalizar</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>Powered by <a href="https://enem.dev" target="_blank">API ENEM</a> | Feito com ChatGPT | @ant762 no GitHub</p>
+  </footer>
+
+  <script src="/ProjetoEnem/frontend/js/redacao.js"></script>
+</body>
+</html>

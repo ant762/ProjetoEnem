@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard ENEM</title>
+  <link rel="stylesheet" href="/ProjetoEnem/frontend/css/dashboard.css">
+</head>
+<body>
+  <header>
+    <h1>Dashboard</h1>
+    <nav>
+      <a href="/ProjetoEnem/frontend/simulado.html">Simulado</a>
+      <a href="/ProjetoEnem/frontend/redacao.html">Redação</a>
+      <a href="/ProjetoEnem/frontend/desempenho.html">Desempenho</a>
+      <a href="/ProjetoEnem/frontend/index.html">Sair</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Bem-vindo, <span id="username"></span></h2>
+
+    <section id="resumo">
+      <h3>Últimos resultados</h3>
+      <ul id="resumoList"></ul>
+    </section>
+    <section id="graficos">
+      <h3>Desempenho</h3>
+      <div class="graficos-container">
+        <canvas id="graficoUltima" width="300" height="300"></canvas>
+        <canvas id="graficoEvolucao" width="500" height="300"></canvas>
+      </div>
+    </section>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+    <section id="acoes">
+      <h3>Ações rápidas</h3>
+      <button onclick="window.location.href='/ProjetoEnem/frontend/simulado.html'">Iniciar Simulado</button>
+      <button onclick="window.location.href='/ProjetoEnem/frontend/desempenho.html'">Ver Desempenho</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito com ChatGPT | @ant762 no GitHub</p>
+  </footer>
+
+  <script src="/ProjetoEnem/frontend/js/dashboard.js"></script>
+</body>
+</html>

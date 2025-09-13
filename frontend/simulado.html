@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Simulado ENEM</title>
+  <link rel="stylesheet" href="/ProjetoEnem/frontend/css/simulado.css">
+</head>
+
+<body>
+  <header>
+    <h1>TABELA DE SIMULADO</h1>
+    <nav>
+      <a href="/ProjetoEnem/frontend/dashboard.html">Início</a>
+      <a href="/ProjetoEnem/frontend/simulado.html">Simulado</a>
+      <a href="/ProjetoEnem/frontend/redacao.html">Redação</a>
+      <a href="/ProjetoEnem/frontend/desempenho.html">Desempenho</a>
+      <a href="/ProjetoEnem/frontend/index.html">Sair</a>
+    </nav>
+  </header>
+
+  <div id="config">
+    <label>Ano:
+      <select id="anoSelect"></select>
+    </label>
+
+    <label>Disciplina:
+      <select id="disciplinaSelect">
+        <option value="linguagens">Linguagens/Humanas</option>
+        <option value="matematica">Matemática/Ciências da Natureza</option>
+      </select>
+    </label>
+
+    <label id="idiomaLabel">Idioma:
+      <select id="idiomaSelect">
+        <option value="english">Inglês</option>
+        <option value="spanish">Espanhol</option>
+      </select>
+    </label>
+
+    <button id="startBtn">Iniciar Prova</button>
+  </div>
+
+  <div id="simulado" class="hidden">
+    <div id="timer">00:00:00</div>
+    <div id="questaoContainer"></div>
+    <div class="navegacao">
+      <button id="prevBtn">⟵ Anterior</button>
+      <button id="nextBtn">Próxima ⟶</button>
+      <button id="finishBtn" class="finish">Finalizar</button>
+    </div>
+  </div>
+
+  <script src="/ProjetoEnem/frontend/js/simulado.js"></script>
+</body>
+</html>

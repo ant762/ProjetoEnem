@@ -54,22 +54,38 @@ async function fetchQuestions(year, discipline, language, offset=0, limit=50){
 startBtn.addEventListener('click', async () => {
   const year = parseInt(anoSelect.value);
   const discipline = disciplinaSelect.value;
-  let language = disciplinaSelect.value === 'linguagens' 
-                 ? idiomaSelect.value.toLowerCase() === 'english' ? 'ingles'
+  let language = disciplinaSelect.value === 'linguagens'
+                 ? (idiomaSelect.value.toLowerCase() === 'english' ? 'ingles'
                  : idiomaSelect.value.toLowerCase() === 'spanish' ? 'espanhol'
-                 : null 
+                 : null)
                  : null;
 
   let questions = [];
-  if(discipline==='linguagens'){
-    questions = [...await fetchQuestions(year, discipline, language, 0, 50),
-                 ...await fetchQuestions(year, discipline, language, 50, 40)];
+
+  try {
+  if(discipline === 'matematica'){
+    const first50 = await fetchQuestions(year, discipline, null, 91, 50); // quest 91–140
+    const next40 = await fetchQuestions(year, discipline, null, 140, 40); // quest 141–180
+    questions = [...first50, ...next40].slice(0, TOTAL_QUESTIONS); // pega 90 questões
+  } else if(discipline === 'linguagens'){
+    const q1 = await fetchQuestions(year, discipline, language, 0, 50);
+    const q2 = await fetchQuestions(year, discipline, language, 50, 40);
+    questions = [...q1, ...q2].slice(0, TOTAL_QUESTIONS);
   } else {
-    questions = [...await fetchQuestions(year, discipline, null, 0, 50),
-                 ...await fetchQuestions(year, discipline, null, 50, 40)];
+    const q1 = await fetchQuestions(year, discipline, null, 0, 50);
+    const q2 = await fetchQuestions(year, discipline, null, 50, 40);
+    questions = [...q1, ...q2].slice(0, TOTAL_QUESTIONS);
+  }
+  } catch(e){
+    console.error('Erro ao buscar questões:', e);
+    alert('Erro ao carregar questões.');
+    return;
   }
 
-  if(!questions.length){ alert('Nenhuma questão encontrada.'); return; }
+  if(!questions.length){
+    alert('Nenhuma questão encontrada.');
+    return;
+  }
 
   state.questions = questions.slice(0, TOTAL_QUESTIONS);
   state.idx = 0;
@@ -83,13 +99,24 @@ startBtn.addEventListener('click', async () => {
   startTimer();
 });
 
-// Renderizar questão
+
 function parseQuestionContext(text){
   if(!text) return '';
-  let html = text.replace(/!\[.*?\]\((https?:\/\/[^\s)]+)\)/gi, (_, url)=>`<img src="${url}" class="questao-img" alt="Imagem">`);
-  html = html.replace(/(^|\s)(https?:\/\/[^\s)]+?\.(?:png|jpe?g|gif))(\s|$)/gi, (m,p1,url,p3)=> html.includes(`<img src="${url}"`) ? m : `${p1}<img src="${url}" class="questao-img" alt="Imagem">${p3}`);
+  let html = text;
+
+  // Markdown ![alt](url)
+  html = html.replace(/!\[.*?\]\((https?:\/\/[^\s)]+)\)/gi, (_, url) => {
+    return `<img src="${url}" class="questao-img" alt="Imagem">`;
+  });
+
+  // URLs soltas que terminam em .png/.jpg/.gif
+  html = html.replace(/(^|\s)(https?:\/\/[^\s)]+?\.(?:png|jpe?g|gif))(\s|$)/gi, (m, p1, url, p3) => {
+    return `${p1}<img src="${url}" class="questao-img" alt="Imagem">${p3}`;
+  });
+
   return html;
 }
+
 
 function renderQuestion(){
   const q = state.questions[state.idx];
@@ -202,6 +229,7 @@ document.addEventListener('click', e => {
     resetExam();
   }
 });
+
 
 function resetExam(){
   state.questions=[]; state.answers={}; state.idx=0; state.timeLeft=TIME_SECONDS;

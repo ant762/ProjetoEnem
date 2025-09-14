@@ -576,6 +576,33 @@
         "wrong": 0,
         "blank": 90,
         "total": 90
+      },
+      {
+        "date": "2025-09-13T23:54:09.236Z",
+        "discipline": "matematica",
+        "score": 0,
+        "correct": 0,
+        "wrong": 0,
+        "blank": 90,
+        "total": 90
+      },
+      {
+        "date": "2025-09-13T23:56:07.804Z",
+        "discipline": "matematica",
+        "score": 0,
+        "correct": 0,
+        "wrong": 0,
+        "blank": 90,
+        "total": 90
+      },
+      {
+        "date": "2025-09-14T00:11:07.861Z",
+        "discipline": "matematica",
+        "score": 0,
+        "correct": 0,
+        "wrong": 0,
+        "blank": 90,
+        "total": 90
       }
     ]
   }

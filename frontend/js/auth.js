@@ -1,58 +1,65 @@
-// auth.js — controla login/registro da página index.html
-const API = 'http://localhost:3000/api'; // ajuste se backend rodar em outra porta
+// auth.js - controla login e registro na pagina index.html
+const URL_API = 'http://localhost:3000/api'; // se o backend estiver rodando em outra porta é so mudar
 
-const loginForm = document.getElementById('loginForm');
-const registerBtn = document.getElementById('registerBtn');
-const message = document.getElementById('message');
+const formularioDeLogin = document.getElementById('loginForm')
+const botaoDeRegistro = document.getElementById('registerBtn')
+const areaDeMensagem = document.getElementById('message')
 
-function showMessage(txt, err=false){
-  message.textContent = txt;
-  message.style.color = err ? '#fca5a5' : '';
+// funcao pra mostrar a mensagem na tela
+function mostrarMensagem(texto, erro=false){
+  areaDeMensagem.textContent = texto // atualiza o texto da area de mensagem
+  areaDeMensagem.style.color = erro ? '#fca5a5' : '' // se for erro fica vermelhinho senao e o padrao
 }
 
-// Login
-loginForm.addEventListener('submit', async (e) => {
-  e.preventDefault();
-  const username = document.getElementById('username').value.trim();
-  const password = document.getElementById('password').value;
-  if(!username || !password) return showMessage('Preencha usuário e senha', true);
+// login
+formularioDeLogin.addEventListener('submit', async (evento) => {
+  evento.preventDefault(); // não deixa o formulário enviar de forma normal e recarregar a página
+  const nomeDeUsuario = document.getElementById('username').value.trim().toLowerCase(); // converte para minúsculo
+  const senha = document.getElementById('password').value; // pega o valor do campo password
+
+  if (!nomeDeUsuario || !senha) return mostrarMensagem('preencha usuario e senha', true); // se não preencher, avisa que precisa de usuário e senha
 
   try {
-    const res = await fetch(API + '/login', {
+    // faz a requisição post pro backend para tentar fazer login
+    const resposta = await fetch(URL_API + '/login', {
       method: 'POST',
-      headers: {'Content-Type':'application/json'},
-      body: JSON.stringify({ username, password })
+      headers: { 'Content-Type': 'application/json' }, // estamos mandando json
+      body: JSON.stringify({ username: nomeDeUsuario, password: senha }) // envia o json com usuário e senha corretamente
     });
-    const j = await res.json();
-    if(!res.ok) return showMessage(j.error || 'Erro ao logar', true);
 
-    // salvar sessão local (simples)
-    localStorage.setItem('simulado_user', JSON.stringify(j.user));
-    showMessage('Login bem sucedido! redirecionando...');
-    setTimeout(() => window.location.href = 'dashboard.html', 700);
-  } catch(err) {
-    console.error(err);
-    showMessage('Erro de conexão com backend', true);
+    const respostaJSON = await resposta.json(); // pega a resposta do backend em formato json
+    if (!resposta.ok) return mostrarMensagem(respostaJSON.error || 'erro ao logar', true); // se der erro no login, mostra a mensagem de erro
+
+    // se tudo deu certo, salva os dados do usuário localmente
+    localStorage.setItem('simulado_usuario', JSON.stringify(respostaJSON.usuario)); // salva no localStorage
+    mostrarMensagem('login bem sucedido, redirecionando...'); // mostra que deu certo
+    setTimeout(() => window.location.href = 'dashboard.html', 700); // depois de um tempo, redireciona o usuário para o dashboard
+  } catch (erro) {
+    console.error(erro); // se deu algum erro no código, mostra no console
+    mostrarMensagem('erro de conexão com o backend', true); // mostra que houve erro de conexão com o backend
   }
 });
 
-// Registro rápido
-registerBtn.addEventListener('click', async () => {
-  const username = document.getElementById('username').value.trim();
-  const password = document.getElementById('password').value;
-  if(!username || !password) return showMessage('Preencha usuário e senha para registrar', true);
+// registro rapido. nao precisa de confirmacao de senha ou email por enquanto
+botaoDeRegistro.addEventListener('click', async () => {
+  const nomeDeUsuario = document.getElementById('username').value.trim().toLowerCase(); // pega o valor do campo username. trim tira os espacos + toLowerCase deixa minusculo pra evitar usuarios iguais com maiusculas e minusculas
+  const senha = document.getElementById('password').value // pega o valor do campo password. n precisa de trim aqui pq senha pode ter espaco
+  
+  if(!nomeDeUsuario || !senha) return mostrarMensagem('preencha usuario e senha para registrar', true) // se nao preencher avisa que precisa preencher os campos. n precisa de mais validacao por enquanto
 
   try {
-    const res = await fetch(API + '/register', {
+    // faz a requisicao post pro backend pra criar a conta. 
+    const resposta = await fetch(URL_API + '/register', {
       method: 'POST',
-      headers: {'Content-Type':'application/json'},
-      body: JSON.stringify({ username, password })
-    });
-    const j = await res.json();
-    if(!res.ok) return showMessage(j.error || 'Erro no registro', true);
-    showMessage('Conta criada. Faça login.');
-  } catch(err) {
-    console.error(err);
-    showMessage('Erro de conexão com backend', true);
+      headers: {'Content-Type':'application/json'}, // dizemos que estamos mandando um json
+      body: JSON.stringify({ username: nomeDeUsuario, password: senha }) // envia os dados como json. o backend vai cuidar de validar se ja existe ou se ta tudo ok
+    })
+    
+    const respostaJSON = await resposta.json() // pega a resposta do backend em formato json
+    if(!resposta.ok) return mostrarMensagem(respostaJSON.error || 'erro no registro', true) // se der erro no registro, mostra a mensagem de erro
+    mostrarMensagem('conta criada faça login') // conta criada, agora é so fazer o login
+  } catch(erro) {
+    console.error(erro) // se deu algum erro no código, mostra no console
+    mostrarMensagem('erro de conexao com backend', true) // se não conseguir conectar com o backend, avisa
   }
-});
+})

@@ -9,7 +9,7 @@
 <body>
   <header class="site-header">
     <div class="brand">
-      <div class="logo">EN</div>
+      <div class="logo">ENdev</div>
       <div class="brand-text">
         <div class="title">Simulado ENEM</div>
         <div class="subtitle">Pratique provas oficiais — integrado com api.enem.dev</div>
@@ -23,9 +23,6 @@
       <a href="/ProjetoEnem/frontend/desempenho.html"  class="nav-link">Desempenho</a>
     </nav>
 
-    <div class="header-actions">
-      <button id="btnTheme" class="icon-btn">Tema</button>
-    </div>
   </header>
 
   <main class="container">
@@ -33,32 +30,35 @@
       <h2>Entrar</h2>
       <form id="loginForm" class="form">
         <label>Usuário</label>
-        <input id="username" type="text" placeholder="seuusuario" required />
+        <input id="username" type="text" placeholder="Nome" required autocomplete="current-password" />
         <label>Senha</label>
-        <input id="password" type="password" placeholder="senha" required />
+        <input id="password" type="password" placeholder="senha" required autocomplete="current-password" />
         <div class="form-row">
           <button type="submit" class="btn">Entrar</button>
           <button type="button" id="registerBtn" class="btn outline">Registrar</button>
-        </div>
+        </div>  
       </form>
       <div id="message" class="muted"></div>
-    </section>
+    </section>  
 
     <aside class="card info-card">
       <h3>Benefícios</h3>
       <ul>
         <li>Escolha de provas desde 2009</li>
-        <li>Cadernos (amarela / cinza / vermelha) e modo randômico</li>
+        <br>
+        <li>Cadernos (amarela / cinza / vermelha)</li>
+        <br>
         <li>Salvamento de histórico no servidor</li>
+        <br>
         <li>Página de desempenho com gráficos</li>
       </ul>
-      <div class="muted small">Frontend estático + backend em Node.js (prototipo).</div>
+      <div class="muted small">front-end feito interamente com CSS.</div>
     </aside>
   </main>
 
   <footer class="site-footer">
     <div>Dados: <a href="https://api.enem.dev" target="_blank">api.enem.dev</a> · JS · <a href="https://github.com/ant762" target="_blank">@ant762</a></div>
-    <div class="muted small">Protótipo — não use em produção sem revisar segurança.</div>
+    <div class="muted small">Protótipo — NÃO USE EM PRODUÇÃO SEM REVISAR A SEGURANÇA DA APLICAÇÃO.</div>
   </footer>
 
   <script src="/ProjetoEnem/frontend/js/auth.js"></script>

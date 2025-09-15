@@ -27,12 +27,16 @@
 
     <section id="graficos">
       <h3>Desempenho</h3>
-      <div class="graficos-container">
-        <canvas id="graficoUltima" width="300" height="300"></canvas>
-        <canvas id="graficoEvolucao" width="500" height="300"></canvas>
+      <div class="graficos-row">
+        <div class="graficoUltimaContainer" id="g1">
+          <canvas id="graficoUltima" role="img" aria-label="Gráfico de pizza: acertos, erros e brancos"></canvas>
+        </div>
+    
+        <div class="graficoEvolucaoContainer" id="g2">
+          <canvas id="graficoEvolucao" role="img" aria-label="Gráfico de linha: evolução das notas"></canvas>
+        </div>
       </div>
     </section>
-
     <section id="acoes">
       <h3>Ações rápidas</h3>
       <button onclick="window.location.href='/ProjetoEnem/frontend/simulado.html'">Iniciar Simulado</button>

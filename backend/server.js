@@ -6,29 +6,30 @@ const cors = require('cors');
 const app = express();
 app.use(express.json());
 
-// CORS — permite múltiplas origens (útil no dev)
+// cors, que pelo visto serve pra segurança. coloquei duas origins porque sla, pelo visto dava erro. nunca entendi essa bagaça mas sei que é necessário
 app.use(cors({
-  origin: ['http://localhost:5500', 'http://127.0.0.1:5500'],
-  methods: ['GET','POST','PUT','DELETE','OPTIONS'],
-  allowedHeaders: ['Content-Type']
+  origin: ['http://localhost:3000', 'http://127.0.0.1:3000', 'http://localhost:5500', 'http://127.0.0.1:5500'],
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+  credentials: true
 }));
 
-const USERS_FILE = path.join(__dirname, 'users.json');
+const ARQUIVOS_USUARIO = path.join(__dirname, 'users.json');  
 
-// Cria arquivo vazio se não existir
-if(!fs.existsSync(USERS_FILE)) fs.writeFileSync(USERS_FILE, JSON.stringify([]));
+// cria arquivo vazio se nao existir
+if(!fs.existsSync(ARQUIVOS_USUARIO)) fs.writeFileSync(ARQUIVOS_USUARIO, JSON.stringify([]));
 
-// Funções auxiliares
+// olha, isso aqui serve pra carregar e salvar os usuarios no arquivo users.json
 function loadUsers(){
-  try { return JSON.parse(fs.readFileSync(USERS_FILE, 'utf8')); }
+  try { return JSON.parse(fs.readFileSync(ARQUIVOS_USUARIO, 'utf8')); }
   catch(e){ return []; }
 }
 
 function saveUsers(users){
-  fs.writeFileSync(USERS_FILE, JSON.stringify(users, null, 2));
+  fs.writeFileSync(ARQUIVOS_USUARIO, JSON.stringify(users, null, 2));
 }
 
-// Criar usuário padrão se não existir
+// usuario padrao, ant762.
 const users = loadUsers();
 if (!users.find(u => u.username === 'ant762')) {
   users.push({ username: 'ant762', password: 'admin123', history: [] });
@@ -36,7 +37,7 @@ if (!users.find(u => u.username === 'ant762')) {
   console.log('Usuário padrão criado: ant762 / admin123');
 }
 
-/* Register */
+// registro, n fiz ainda - 15/09
 app.post('/api/register', (req, res) => {
   const { username, password } = req.body;
   if(!username || !password) return res.status(400).json({ error: 'username and password required' });
@@ -49,7 +50,7 @@ app.post('/api/register', (req, res) => {
   return res.json({ message: 'Usuário criado', user: { username } });
 });
 
-/* Login */
+// login do usuario
 app.post('/api/login', (req, res) => {
   const { username, password } = req.body;
   const users = loadUsers();
@@ -58,7 +59,7 @@ app.post('/api/login', (req, res) => {
   return res.json({ message: 'Logado', user: { username: user.username } });
 });
 
-/* Save result */
+// funcao de post pra postar o troco do usuario la no backend (aaaaaaaaaaaaa)
 app.post('/api/saveResult', (req, res) => {
   const { username, result } = req.body;
   if(!username || !result) return res.status(400).json({ error: 'username e result necessários' });
@@ -67,7 +68,7 @@ app.post('/api/saveResult', (req, res) => {
   const user = users.find(u => u.username === username);
   if(!user) return res.status(404).json({ error: 'Usuário não encontrado' });
 
-  // Garantir que todas as propriedades existam
+  // isso serve pra adicionar o resultado no historico do usuario quando ele faz alguma prova
   user.history = user.history || [];
   user.history.push({
     date: result.date || new Date().toISOString(),
@@ -83,7 +84,7 @@ app.post('/api/saveResult', (req, res) => {
   return res.json({ message: 'Resultado salvo' });
 });
 
-/* Get history */
+// pega o historico do usuario la 
 app.get('/api/history/:username', (req, res) => {
   const users = loadUsers();
   const user = users.find(u => u.username === req.params.username);
@@ -91,7 +92,7 @@ app.get('/api/history/:username', (req, res) => {
   return res.json(user.history || []);
 });
 
-/* Health check */
+// se ta rodando, console log.
 app.get('/api/ping', (req, res) => res.json({ ok: true }));
 
 const PORT = process.env.PORT || 3000;

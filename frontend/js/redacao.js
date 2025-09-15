@@ -1,10 +1,10 @@
 // redacao.js — gera temas e controla timer de redação (local)
-const DEFAULT_TIME = 60*60; // 60 minutos
-let essayTimer = null;
-let essayTimeLeft = DEFAULT_TIME;
+const TEMPO_PADRAO = 60 * 60; // 60 minutos
+let timerRedacao = null;
+let tempoRestanteRedacao = TEMPO_PADRAO;
 
-// redacao.js — temas ENEM 2015-2023
-const prompts = [
+// redacao.js — temas ENEM 2015-2023, preciso fazer com que só pegue direto da api mesmo.
+const temas = [
   'Desafios para a promoção da saúde mental entre adolescentes no Brasil',
   'Desafios para o enfrentamento da invisibilidade do trabalho de cuidado realizado pela mulher no Brasil',
   'Os desafios para a valorização das comunidades e povos tradicionais do Brasil',
@@ -20,42 +20,41 @@ const prompts = [
   'A persistência da violência contra a mulher na sociedade brasileira'
 ];
 
-
-// Gerar tema
-function genTopic(){
-  const t = prompts[Math.floor(Math.random()*prompts.length)];
-  document.getElementById('tema').textContent = t;
-  localStorage.setItem('redacao_topic', t);
+// geração de tema. funciona pegando um tema aleatorio do array de temas e mostra na tela. salva o tema no localStorage pra caso a pagina seja recarregada
+function pegarTopico() {
+  const topico = temas[Math.floor(Math.random() * temas.length)];
+  document.getElementById('tema').textContent = topico;
+  localStorage.setItem('redacao_topico', topico);
 
   // Preenche rascunho salvo, se houver
-  const saved = localStorage.getItem('redacao_draft');
-  if(saved) document.getElementById('rascunho').value = saved;
+  const rascunhoSalvo = localStorage.getItem('redacao_rascunho');
+  if (rascunhoSalvo) document.getElementById('rascunho').value = rascunhoSalvo;
 }
 
-// Renderizar timer
-function renderEssayTimer(){
-  const t = Math.max(0, essayTimeLeft);
-  const h = Math.floor(t/3600), m = Math.floor((t%3600)/60), s = t%60;
-  document.getElementById('redacaoTimer').textContent = `${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+// timer bacana. ele mostra o tempo restante no formato hh:mm:ss e decrementa a cada segundo. quando chega a zero, para o timer e avisa que o tempo acabou
+function renderizarTimerRedacao() {
+  const tempo = Math.max(0, tempoRestanteRedacao);
+  const h = Math.floor(tempo / 3600), m = Math.floor((tempo % 3600) / 60), s = tempo % 60;
+  document.getElementById('redacaoTimer').textContent = `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
 }
 
-// Eventos
-document.getElementById('gerarTemaBtn').addEventListener('click', genTopic);
+// esses são os eventos. servem para ligar os botoes da pagina com as funcoes acima
+document.getElementById('gerarTemaBtn').addEventListener('click', pegarTopico);
 
-document.getElementById('iniciarRedacaoBtn').addEventListener('click', ()=> {
-  if(essayTimer) return alert('Redação em andamento');
+document.getElementById('iniciarRedacaoBtn').addEventListener('click', () => {
+  if (timerRedacao) return alert('Redação em andamento');
 
-  const container = document.getElementById('redacaoContainer');
-  container.classList.remove('hidden');
+  const containerRedacao = document.getElementById('redacaoContainer');
+  containerRedacao.classList.remove('hidden');
 
-  essayTimeLeft = DEFAULT_TIME;
-  renderEssayTimer();
-  essayTimer = setInterval(()=> {
-    essayTimeLeft--;
-    renderEssayTimer();
-    if(essayTimeLeft <= 0){
-      clearInterval(essayTimer);
-      essayTimer = null;
+  tempoRestanteRedacao = TEMPO_PADRAO;
+  renderizarTimerRedacao();
+  timerRedacao = setInterval(() => {
+    tempoRestanteRedacao--;
+    renderizarTimerRedacao();
+    if (tempoRestanteRedacao <= 0) {
+      clearInterval(timerRedacao);
+      timerRedacao = null;
       alert('Tempo de redação encerrado.');
     }
   }, 1000);
@@ -63,20 +62,20 @@ document.getElementById('iniciarRedacaoBtn').addEventListener('click', ()=> {
   document.getElementById('iniciarRedacaoBtn').disabled = true;
 });
 
-document.getElementById('finalizarRedacaoBtn').addEventListener('click', ()=> {
-  const txt = document.getElementById('rascunho').value;
-  localStorage.setItem('redacao_draft', txt);
+document.getElementById('finalizarRedacaoBtn').addEventListener('click', () => {
+  const texto = document.getElementById('rascunho').value;
+  localStorage.setItem('redacao_rascunho', texto);
   alert('Redação finalizada e salva localmente.');
-  clearInterval(essayTimer);
-  essayTimer = null;
+  clearInterval(timerRedacao);
+  timerRedacao = null;
   document.getElementById('iniciarRedacaoBtn').disabled = false;
 });
 
-// Ao carregar a página
-window.addEventListener('load', ()=> {
-  const savedTopic = localStorage.getItem('redacao_topic');
-  if(savedTopic) document.getElementById('tema').textContent = savedTopic;
+// aaaaaaaaaaaaaaaa quando a pagina carrega, pega o topico salvo e o rascunho salvo (se houver) e mostra na tela (amostradinho)
+window.addEventListener('load', () => {
+  const topicoSalvo = localStorage.getItem('redacao_topico');
+  if (topicoSalvo) document.getElementById('tema').textContent = topicoSalvo;
 
-  const draft = localStorage.getItem('redacao_draft');
-  if(draft) document.getElementById('rascunho').value = draft;
+  const rascunho = localStorage.getItem('redacao_rascunho');
+  if (rascunho) document.getElementById('rascunho').value = rascunho;
 });

@@ -1,8 +1,8 @@
-// desempenho.js — carrega histórico do backend e desenha gráficos com Chart.js
+// desempenho.js — carrega historico do backend e desenha graficos com Chart.js. obrigado heiler por me informar sobre essa biblioteca incrível
 const BACKEND = 'http://localhost:3000/api';
 let chartDist = null, chartTrend = null, chartByDisc = null;
 
-// Função para buscar histórico do backend
+// funcao pra buscar historico do backend. retorna array vazio se der erro.
 async function fetchHistory(username) {
   try {
     const res = await fetch(`${BACKEND}/history/${encodeURIComponent(username)}`);
@@ -10,20 +10,20 @@ async function fetchHistory(username) {
     const j = await res.json();
     return Array.isArray(j) ? j : [];
   } catch (e) {
-    console.error('Erro ao buscar histórico:', e);
+    console.error('erro ao buscar historico:', e);
     return [];
   }
 }
 
-// Export CSV
-function toCSV(arr) {
+// exporta pra CSV. só armazena os dados separados por vírgula e tacalhepaunessecarrinhomarcos
+function paraCSV(arr) {
   const header = ['date,discipline,score,correct,wrong,blank,total'];
   const lines = arr.map(i => `${i.date||''},${i.discipline||''},${i.score||''},${i.correct||''},${i.wrong||''},${i.blank||''},${i.total||''}`);
   return header.concat(lines).join('\n');
 }
 
-// Cria bins para gráfico de distribuição
-function makeBins(scores, bins = 10) {
+// cria bins pros graficos de distribuicao. cada bin representa um intervalo de notas, tbm retorna um objeto com labels e counts. counts é um array com a quantidade de notas em cada bin
+function fazerBins(scores, bins = 10) {
   const counts = Array(bins).fill(0);
   const labels = [];
   const step = Math.ceil(1000 / bins);
@@ -32,45 +32,45 @@ function makeBins(scores, bins = 10) {
   return { labels, counts };
 }
 
-// Destruir gráficos antigos
-function destroyCharts() {
+// destruir graficos antigos, acho que é bem auto-explicativo
+function tchauCharts() {
   if (chartDist) chartDist.destroy();
   if (chartTrend) chartTrend.destroy();
   if (chartByDisc) chartByDisc.destroy();
 }
 
-// Função principal
+// funcao principal. funciona da seguinte forma: pega o usuario do localStorage, se nao tiver manda pro login. se tiver pega o historico do backend, cria tres graficos (distribuicao geral, evolucao das notas e distribuicao por disciplina), exporta CSV e mostra o historico em tabela
 (async function init() {
   const user = JSON.parse(localStorage.getItem('simulado_user') || 'null');
   if (!user) { 
-    alert('Faça login'); 
+    alert('faça login'); 
     window.location.href = 'index.html'; 
     return; 
   }
 
   const history = await fetchHistory(user.username);
   if (!Array.isArray(history) || !history.length) {
-    document.getElementById('historyList').textContent = 'Nenhum resultado encontrado.';
+    document.getElementById('historyList').textContent = 'nenhum resultado encontrado';
     return;
   }
 
   const results = history.filter(r => typeof r.score === 'number');
-  destroyCharts();
+  tchauCharts();
 
-  // --- Gráfico de distribuição geral ---
+  // --- grafico de distribuicao geral ---
   const scores = results.map(r => r.score);
-  const bins = makeBins(scores, 10);
+  const bins = fazerBins(scores, 10);
   const ctxDist = document.getElementById('chartDist').getContext('2d');
   chartDist = new Chart(ctxDist, {
     type: 'bar',
     data: {
       labels: bins.labels,
-      datasets: [{ label: 'Frequência', data: bins.counts, backgroundColor: '#60a5fa', borderRadius: 6 }]
+      datasets: [{ label: 'frequencia', data: bins.counts, backgroundColor: '#60a5fa', borderRadius: 6 }]
     },
     options: { responsive: true, plugins: { legend: { display: false } } }
   });
 
-  // --- Gráfico de evolução ---
+  // --- grafico de evolucao ---
   const sortedByDate = results.slice().sort((a, b) => new Date(a.date) - new Date(b.date));
   const ctxTrend = document.getElementById('chartTrend').getContext('2d');
   chartTrend = new Chart(ctxTrend, {
@@ -78,7 +78,7 @@ function destroyCharts() {
     data: {
       labels: sortedByDate.map(r => new Date(r.date).toLocaleDateString()),
       datasets: [{
-        label: 'Nota',
+        label: 'nota',
         data: sortedByDate.map(r => r.score),
         borderColor: '#22c55e',
         backgroundColor: 'rgba(34,197,94,0.2)',
@@ -89,32 +89,32 @@ function destroyCharts() {
     options: { responsive: true, plugins: { legend: { display: true } } }
   });
 
-  // --- Gráfico por disciplina ---
+  // --- grafico por disciplina ---
   const scoreByDisc = { linguagens: [], matematica: [] };
   results.forEach(r => {
     if (r.discipline === 'linguagens') scoreByDisc.linguagens.push(r.score);
     else if (r.discipline === 'matematica') scoreByDisc.matematica.push(r.score);
   });
-  const binsLing = makeBins(scoreByDisc.linguagens, 10);
-  const binsMat = makeBins(scoreByDisc.matematica, 10);
+  const binsLing = fazerBins(scoreByDisc.linguagens, 10);
+  const binsMat = fazerBins(scoreByDisc.matematica, 10);
   const ctxByDisc = document.getElementById('chartByDisc').getContext('2d');
   chartByDisc = new Chart(ctxByDisc, {
     type: 'bar',
     data: {
       labels: binsLing.labels,
       datasets: [
-        { label: 'Linguagens', data: binsLing.counts, backgroundColor: '#60a5fa' },
-        { label: 'Matemática', data: binsMat.counts, backgroundColor: '#f97316' }
+        { label: 'linguagens', data: binsLing.counts, backgroundColor: '#60a5fa' },
+        { label: 'matematica', data: binsMat.counts, backgroundColor: '#f97316' }
       ]
     },
     options: { responsive: true, plugins: { legend: { position: 'top' } } }
   });
 
-  // --- Export CSV ---
+  // --- exportação do CSV lá---
   const btnCSV = document.getElementById('btnExportCSV');
   if (btnCSV) {
     btnCSV.addEventListener('click', () => {
-      const csv = toCSV(results);
+      const csv = paraCSV(results);
       const blob = new Blob([csv], { type: 'text/csv' });
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
@@ -126,7 +126,7 @@ function destroyCharts() {
     });
   }
 
-  // --- Histórico em tabela ---
+  // --- historico em tabela. obrigado prof. neves por me ensinar a usar html direto no script.. eu acho.. ---
   const listNode = document.getElementById('historyList');
   listNode.innerHTML = '';
   const table = document.createElement('table');

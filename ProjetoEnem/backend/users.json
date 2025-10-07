@@ -12322,6 +12322,2988 @@
             ]
           }
         ]
+      },
+      {
+        "date": "2025-10-07T19:49:15.826Z",
+        "year": 2023,
+        "discipline": "linguagens",
+        "score": 0,
+        "correct": 0,
+        "wrong": 0,
+        "blank": 90,
+        "total": 90,
+        "details": [
+          {
+            "number": 1,
+            "title": "Questão 1 - ENEM 2023",
+            "context": "![](https://enem.dev/2023/questions/1-ingles/59a5b837-9914-48b0-a1b4-959562038c9a.png)",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "B",
+            "correctText": "O desperdício degrada o ambiente.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Os lixões precisam de ampliação."
+              },
+              {
+                "letter": "B",
+                "text": "O desperdício degrada o ambiente."
+              },
+              {
+                "letter": "C",
+                "text": "Os mercados doam alimentos perecíveis."
+              },
+              {
+                "letter": "D",
+                "text": "A desnutrição compromete o raciocínio."
+              },
+              {
+                "letter": "E",
+                "text": "As residências carecem de refrigeradores."
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "title": "Questão 2 - ENEM 2023",
+            "context": "No man is an island,  \nEntire of itself;  \nEvery man is a piece of the continent,  \nA part of the main.  \n\\[…\\]  \nAny man’s death diminishes me,  \nBecause I am involved in mankind.\n\nDONNE, J. **The Works of John Donne**. Londres: John W. Parker, 1839 (fragmento).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "B",
+            "correctText": "Ideia de conexão.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Medo da morte."
+              },
+              {
+                "letter": "B",
+                "text": "Ideia de conexão."
+              },
+              {
+                "letter": "C",
+                "text": "Conceito de solidão."
+              },
+              {
+                "letter": "D",
+                "text": "Risco de devastação."
+              },
+              {
+                "letter": "E",
+                "text": "Necessidade de empatia."
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "title": "Questão 3 - ENEM 2023",
+            "context": "Things We Carry on the Sea\n\nWe carry tears in our eyes: good-bye father, good-bye mother  \nWe carry soi in smal bags: may home never fade in our hearts  \nWe carry carnage of mining. droughts, floods, genocides  \nWe carry dust of our families and neighbors incinerated in mushroom clouds  \nWe carry our islands sinking under the sea  \nWe carry our hands, feet, bones, hearts and best minds for a new life  \nWe carry diplomas: medicine, engineer, nurse, education, math, poetry, even if they mean nothing to the other shore  \nWe carry railroads, plantations, laundromats. bodegas, taco trucks, farms, factories, nursing homes, hospitals, schools, temples… built on our ancestors’ backs  \nWe carry old homes along the spine, new dreams in our chests  \nWe carry yesterday, today and tomorrow  \nWe’re orphans of the wars forced upon us  \nWe’re refugees of the sea rising from industrial wastes  \nAnd we carry our mother tongues  \n\\[…\\]  \nAs we drift… in our rubber boats… from shore… to shore…. to shore…\n\nPING. W. Disponivel em: https://poets.org. Acesso en 1 jun. 2023 (fragmento)",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "D",
+            "correctText": "Existência de experiências plurais.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Risco de choques culturais."
+              },
+              {
+                "letter": "B",
+                "text": "Impacto do ensino de história."
+              },
+              {
+                "letter": "C",
+                "text": "Importância da luta ambiental."
+              },
+              {
+                "letter": "D",
+                "text": "Existência de experiências plurais."
+              },
+              {
+                "letter": "E",
+                "text": "Necessidade de capacitação profissional."
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "title": "Questão 4 - ENEM 2023",
+            "context": "**Spanglish**\n\npues estoy creando Spanglish  \nbi-cultural systems  \nscientific lexicographical  \ninter-textual integrations  \ntwo expressions  \nexistentially wired  \ntwo dominant languages  \ncontinentally abrazándose  \nin colloquial combate  \nimperio spanglish emerges  \nsobre territorio bi-lingual  \nlas novelas mexicanas  \nmixing with radiorocknroll  \nimmigrant/migrant  \nnasal mispronouncements  \nhip-hop, street salsa, spanish pop  \nstandard english classroom  \nwith computer technicalities  \nspanglish is literally perfect\n\nLAVIERA T. **Benedición**. The Complete Poetry of Talo Laviera. Houston: Arte Público Press, 2014 (fragmento).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "A",
+            "correctText": "Convergência linguístico-cultural.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Convergência linguístico-cultural."
+              },
+              {
+                "letter": "B",
+                "text": "Características históricio-cultural."
+              },
+              {
+                "letter": "C",
+                "text": "Tendência estilístico-literária"
+              },
+              {
+                "letter": "D",
+                "text": "Discriminação cultural."
+              },
+              {
+                "letter": "E",
+                "text": "Censura musical."
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "title": "Questão 5 - ENEM 2023",
+            "context": "![](https://enem.dev/broken-image.svg)\n\nDisponivel em: www.cartoonstock.com. Acesso em: 25 out. 2021",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "B",
+            "correctText": "Destacar a falta de diversidade.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Criticar um padrão de vestimenta."
+              },
+              {
+                "letter": "B",
+                "text": "Destacar a falta de diversidade."
+              },
+              {
+                "letter": "C",
+                "text": "Indicar um modo de interação."
+              },
+              {
+                "letter": "D",
+                "text": "Elogiar um modelo de organização."
+              },
+              {
+                "letter": "E",
+                "text": "Salientar o espírito de cooperação."
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "title": "Questão 6 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "D",
+            "correctText": "Associação entre o lema olímpico e a cooperatividade.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Unificação do lema anterior ao atual."
+              },
+              {
+                "letter": "B",
+                "text": "Aproximação entre o lema olímpico e o COI."
+              },
+              {
+                "letter": "C",
+                "text": "Junção do lema olímpico com os princípios esportivos."
+              },
+              {
+                "letter": "D",
+                "text": "Associação entre o lema olímpico e a cooperatividade."
+              },
+              {
+                "letter": "E",
+                "text": "Vinculação entre o lema olímpico e os eventos atléticos."
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "title": "Questão 7 - ENEM 2023",
+            "context": "**Mais iluminada que outras**\n\nTenho dois seios, estas duas coxas, duas mãos que me são muito úteis, olhos escuros, estas duas sobrancelhas que preencho com maquiagem comprada por dezenove e noventa e orelhas que não aceitam bijuterias. Este corpo é um corpo faminto, dentado, cruel, capaz e violento. Movo os braços e multidões correm desesperadas. Caminho no escuro com o rosto para baixo, pois cada parte isolada de mim tem sua própria vida e não quero domá-las. Animal da caatinga. Forte demais. Engolidora de espadas e espinhos. Dizem e eu ouvi, mas depois também li, que o estado do Ceará aboliu a escravidão quatro anos antes do restante do país. Todos aqueles corpos que eram trazidos com  \nseus dedos contados, seus calcanhares prontos e seus umbigos em fogo, todos eles foram interrompidos no porto. Um homem – dizem e eu ouvi e depois também li — liderou o levante. E todos esses corpos foram buscar outros incômodos. Foram ser incomodados.\n\nARRAES. J. Redemoinho em dia quente. São Paulo: Alfaguara, 2019.",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "A",
+            "correctText": "Revelam as marcas da violência de raça e de gênero na construção da identidade.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Revelam as marcas da violência de raça e de gênero na construção da identidade."
+              },
+              {
+                "letter": "B",
+                "text": "Questionam o pioneirismo do estado do Ceará no enfrentamento à escravidão."
+              },
+              {
+                "letter": "C",
+                "text": "Reproduzem padrões estéticos em busca da valorização da autoestima feminina."
+              },
+              {
+                "letter": "D",
+                "text": "Sugerem uma atmosfera onírica alinhada ao desejo de resgate da espiritualidade."
+              },
+              {
+                "letter": "E",
+                "text": "Mimetizam, na paisagem, os corpos transformados pela violência da escravidão."
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "title": "Questão 8 - ENEM 2023",
+            "context": "**De quem é esta língua?**\n\nUma pequena editora brasileira, a Urutau, acaba de lançar em Lisboa uma “antologia antirracista de poetas estrangeiros em Portugal”, com o título Volta para a tua terra.\n\nO livro denuncia as diversas formas de racismo a que os imigrantes estão sujeitos. Alguns dos poetas brasileiros antologiados queixam-se do desdém com que um grande número de portugueses acolhe o português brasileiro. É uma queixa frequente.\n\n“Aqui em Portugal eles dizem / — eles dizem – / que nosso português é errado, que nós não falamos português”, escreve a poetisa paulista Maria Giulia Pinheiro, para concluir: “Se a sua linguagem, a lusitana, / ainda conserva a palavra da opressão / ela não é a mais bonita do mundo./ Ela é uma das mais violentas”.\n\nAGUALUSA, J. E. Disponível em: https.iloglobo.globo.com Acesso em: 22 nov. 2021 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "C",
+            "correctText": "À existência de uma língua ideal que alguns falantes lusitanos creem ser a falada em Portugal.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "À dificuldade de consolidação da literatura brasileira em outros países."
+              },
+              {
+                "letter": "B",
+                "text": "Aos diferentes graus de instrução formal entre os falantes de língua portuguesa."
+              },
+              {
+                "letter": "C",
+                "text": "À existência de uma língua ideal que alguns falantes lusitanos creem ser a falada em Portugal."
+              },
+              {
+                "letter": "D",
+                "text": "Ao intercâmbio cultural que ocorre entre os povos dos diferentes países de língua portuguesa."
+              },
+              {
+                "letter": "E",
+                "text": "À distância territorial entre os falantes do português que vivem em Portugal e no Brasil."
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "title": "Questão 9 - ENEM 2023",
+            "context": "Na Idade Média, as notícias se propagavam com surpreendente eficácia. Segundo uma emérita professora de Sorbonne, um cavalo era capaz de percorrer 30 quilômetros por dia, mas o tempo podia se acelerar dependendo do interesse da notícia. As ordens mendicantes tinham um papel importante na disseminação de informações, assim como os jograis, os peregrinos e os vagabundos, porque todos eles percorriam grandes distâncias. As cidades também tinham correios organizados e selos para lacrar mensagens e tentar certificar a veracidade das correspondências. Graças a tudo isso, a circulação de boatos era intensa e politicamente relevante. Um exemplo clássico de _fake news_ da era medieval é a história do rei que desaparece na batalha e reaparece muito depois, idoso e transformado.\n\nDisponível em: www.elpais.com.br. Acesso em: 18 jun. 2018 (adaptado)",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "E",
+            "correctText": "Diversidade dos meios disponíveis em uma época histórica.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Velocidade de circulação das notícias."
+              },
+              {
+                "letter": "B",
+                "text": "Nível de letramento da população marginalizada."
+              },
+              {
+                "letter": "C",
+                "text": "Poder de censura por parte dos serviços públicos."
+              },
+              {
+                "letter": "D",
+                "text": "Legitimidade da voz dos representantes da nobreza."
+              },
+              {
+                "letter": "E",
+                "text": "Diversidade dos meios disponíveis em uma época histórica."
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "title": "Questão 10 - ENEM 2023",
+            "context": "Se a interferência de contas falsas em discussões políticas nas redes sociais já representava um perigo para os sistemas democráticos, sua sofisticação e maior semelhança com pessoas reais têm agravado o problema pelo mundo.\n\nO perigo cresceu porque a tecnologia e os métodos evoluíram dos robôs, os “bots” — softwares com tarefas on-line automatizadas —, para os “ciborgues” ou “trolls”, contas controladas diretamente por humanos com ajuda de um pouco de automação.\n\nMas pesquisadores começam agora a observar outros padrões de comportamento: quando mensagens não são programadas, sua publicação se concentra só em horários de trabalho, já que é controlada por pessoas cuja profissão é exatamente essa, administrar um perfil falso durante o dia.\n\nOutra pista: a pobreza vocabular das mensagens publicadas por esses perfis. Um funcionário de uma empresa que supostamente produzia e vendia perfis falsos explica que às vezes “faltava criatividade” para criar mensagens distintas controlando tantos perfis falsos ao mesmo tempo.\n\nGRAGNANI, J. Disponível em: www.bbc.com. Acesso em: 16 dez. 2017.",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "E",
+            "correctText": "Identificação de padrões de disseminação de informações inverídicas.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Controle da atuação dos profissionais de TI."
+              },
+              {
+                "letter": "B",
+                "text": "Desenvolvimento de tecnologias como os \"trolls\"."
+              },
+              {
+                "letter": "C",
+                "text": "Flexibilização dos turnos de trabalho dos controladores."
+              },
+              {
+                "letter": "D",
+                "text": "Necessidade de regulamentação do funcionamento dos \"bots\""
+              },
+              {
+                "letter": "E",
+                "text": "Identificação de padrões de disseminação de informações inverídicas."
+              }
+            ]
+          },
+          {
+            "number": 11,
+            "title": "Questão 11 - ENEM 2023",
+            "context": "Maio foi colorido de amarelo, e o foi porque mundialmente amarelo é a cor convencionada para as advertências. No trânsito, essas advertências têm sido fatais. A estimativa, caso nada seja feito, é a de que se atinjam assustadoras 2,4 milhões de mortes no trânsito em 2030 em todo o mundo.  \nA pressa constante, o sentimento de invencibilidade, a certeza de invulnerabilidade, a necessidade de poder, a falta de civilidade, a certeza de impunidade, a ausência de solidariedade, a inexistência de compaixão e o desrespeito por si próprio são circunstâncias reais que, não raro, concorrem para o comportamento violento no trânsito.  \nO Maio Amarelo, que preconiza a atenção pela vida, é uma das iniciativas nesse sentido. E é precisamente a atenção pela vida que está esquecida. Essa atenção, por certo, requer menos pressa, mais civilidade, limites assegurados, consciência de vulnerabilidade, solidariedade, compaixão e respeito por si e pelo outro. Reafirmar e praticar esses princípios e valores talvez seja um caminho mais seguro e menos violento, que garanta a vida e não celebre a morte.\n\nDisponível em: http://portaldotransito.com.br. Acesso em: 11 dez. 2018 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "D",
+            "correctText": "Sensibilizar o público para a importância de uma direção responsável.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Enumerar as causas determinantes da violência no trânsito."
+              },
+              {
+                "letter": "B",
+                "text": "Contextualizar a campanha de advertência no cenário mundial."
+              },
+              {
+                "letter": "C",
+                "text": "Divulgar dados numéricos alarmantes sobre acidentes de trânsito."
+              },
+              {
+                "letter": "D",
+                "text": "Sensibilizar o público para a importância de uma direção responsável."
+              },
+              {
+                "letter": "E",
+                "text": "Restringir os problemas da violência no trânsito a aspectos emocionais."
+              }
+            ]
+          },
+          {
+            "number": 12,
+            "title": "Questão 12 - ENEM 2023",
+            "context": "Ainda daquela vez pude constatar a bizarrice dos costumes que constituíam as leis mais ou menos constantes do seu mundo: ao me aproximar, verifiquei que o Sr. Timóteo, gordo e suado, trajava um vestido de franjas e lantejoulas que pertencera a sua mãe. O corpete descia-lhe excessivamente justo na cintura, e aqui e ali rebentava através da costura um pouco da carne aprisionada, esgarçando a fazenda e tornando o prazer de vestir-se daquele modo uma autêntica espécie de suplício. Movia-se ele com lentidão, meneando todas as suas franjas e abanando-se vigorosamente com um desses leques de madeira de sândalo, o que o envolvia numa enjoativa onda de perfume. Não sei direito o que colocara sobre a cabeça, assemelhava-se mais a um turbante ou a um chapéu sem abas de onde saiam vigorosas mechas de cabelos alourados. Como era costume seu também, trazia o rosto pintado — e para isto, bem como para suas vestimentas, apoderara-se de todo o guarda-roupa deixado por sua mãe, também em sua época famosa pela extravagância com que se vestia — o que sem dúvida fazia sobressair-lhe o nariz enorme, tão característico da família Meneses.\n\nCARDOSO, L. Crónica da casa assassinada. São Paulo: Circulo do Livro, s.d.",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "C",
+            "correctText": "Descrição impressionista do fetiche do personagem.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Opção por termos e expressões de sentido ambíguo."
+              },
+              {
+                "letter": "B",
+                "text": "Crítica social inspirada pelo convívio com os patrões."
+              },
+              {
+                "letter": "C",
+                "text": "Descrição impressionista do fetiche do personagem."
+              },
+              {
+                "letter": "D",
+                "text": "Presença de um foco narrativo de caráter impreciso."
+              },
+              {
+                "letter": "E",
+                "text": "Ambiência de mistério das relações entre familiares."
+              }
+            ]
+          },
+          {
+            "number": 13,
+            "title": "Questão 13 - ENEM 2023",
+            "context": "Girassol da madrugada  \nTeu dedo curioso me segue lento no rosto  \nOs sulcos, as sombras machucadas por onde a  \n\\[vida passou.  \nQue silêncio, prenda minha… Que desvio triunfal  \n\\[da verdade,  \nQue círculos vagarosos na lagoa em que uma asa  \n\\[gratuita roçou..\n\nTive quatro amores eternos…  \nO primeiro era moça donzela,  \nO segundo… eclipse, boi que fala, cataclisma,  \nO terceiro era a rica senhora,  \nO quarto és tu… E eu afinal me repousei dos  \n\\[meus cuidados\n\nANDRADE, M. Poesias completas. Rio de Janeiro: Nova Fronteira, 2013 (fragmento).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "C",
+            "correctText": "Serenidade sedimentada pela entrega pacifica ao desejo.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Vergonha das marcas provocadas pela passagem do tempo."
+              },
+              {
+                "letter": "B",
+                "text": "Indecisão em face das possibilidades afetivas do presente."
+              },
+              {
+                "letter": "C",
+                "text": "Serenidade sedimentada pela entrega pacifica ao desejo."
+              },
+              {
+                "letter": "D",
+                "text": "Frustração causada pela vontade de retorno ao passado."
+              },
+              {
+                "letter": "E",
+                "text": "Disponibilidade para a exploração do prazer efêmero."
+              }
+            ]
+          },
+          {
+            "number": 14,
+            "title": "Questão 14 - ENEM 2023",
+            "context": "**Dão Lalalão**  \nDo povoado do Ão, ou dos sítios perto, alguém precisava urgente de querer vir por escutar a novela do rádio. Ouvia-a, aprendia-a, guardava na ideia, e, retornado ao Ão, no dia seguinte, a repetia a outros.\n\nAssim estavam jantando, vinham os do povoado receber a nova parte da novela do rádio. Ouvir já tinham ouvido tudo, de uma vez, fugia da regra: falhara ali no Ão, na véspera, o caminhão de um comprador de galinhas e ovos, seo Abrãozinho Buristém, que carregava um rádio pequeno, de pilhas, armara um fio no arame da cerca… Mas queriam escutar outra vez, por confirmação. — “A estória é estável de boa, mal que acompridada: taca e não rende…” — explicava o Zuz ao Dalberto.\n\nSoropita começou a recontar o capitulo da novela. Sem trabalho, se recordava das palavras, até com clareza — disso se admirava. Contava com prazer de demorar, encher a sala com o poder de outros altos personagens. Tomar a atenção de todos, pudesse contar aquilo noite adiante. Era preciso trazer luz, nem uns enxergavam mais os outros; quando alguém ria, ria de muito longe. O capitulo da novela estava terminando.\n\nROSA, J. G. **Noites do sertão (Corpo de baile)**. São Paulo: Global, 2021.",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "D",
+            "correctText": "Jeito singular de falar aos ouvintes.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Qualidade do som do rádio."
+              },
+              {
+                "letter": "B",
+                "text": "Estabilidade do enredo contado."
+              },
+              {
+                "letter": "C",
+                "text": "Ineditismo do capítulo da novela."
+              },
+              {
+                "letter": "D",
+                "text": "Jeito singular de falar aos ouvintes."
+              },
+              {
+                "letter": "E",
+                "text": "Dificuldade de compreensão da história."
+              }
+            ]
+          },
+          {
+            "number": 15,
+            "title": "Questão 15 - ENEM 2023",
+            "context": "As cinzas do Museu Nacional, no Rio de Janeiro, consumido pelas chamas no mês de setembro de 2018, são mais do que restos de fósseis, cerâmicas e espécimes raros. O museu abrigava, entre mais de 20 milhões de peças, os esqueletos com as respostas para perguntas que ainda não haviam sido respondidas — ou sequer feitas — por pesquisadores brasileiros. E o incêndio pode ter calado para sempre palavras e cantos indígenas ancestrais, de línguas que não existem mais no mundo.\n\nO acervo do local continha gravações de conversas, cantos e rituais de dezenas de sociedades indígenas, muitas feitas durante a década de 1960 com antigos gravadores de rolo e que ainda não haviam sido digitalizadas. Alguns dos registros abordavam línguas já extintas, sem falantes originais ainda vivos. “A esperança é que outras instituições tenham registros dessas línguas”, diz a linguista Marilia Facó Soares. A pesquisadora, que trabalha com os índios Tikuna, o maior grupo da Amazônia brasileira, crê ter perdido parte de seu material. “Terei que fazer novas viagens de campo para recompor meus arquivos. Mas obviamente não dá para recuperar a fala de nativos já falecidos, geralmente os mais idosos”, lamenta.\n\nDisponível em: https://brasil.elpais.com. Acesso em: 10 dez. 2018 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "B",
+            "correctText": "Representa danos irreparáveis à memória e à identidade nacionais.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Exige a retomada das pesquisas por especialistas de diferentes áreas."
+              },
+              {
+                "letter": "B",
+                "text": "Representa danos irreparáveis à memória e à identidade nacionais."
+              },
+              {
+                "letter": "C",
+                "text": "Impossibilita o surgimento de novas pesquisas na área."
+              },
+              {
+                "letter": "D",
+                "text": "Resulta na extinção da cultura de povos originários."
+              },
+              {
+                "letter": "E",
+                "text": "Inviabiliza o estudo da língua do povo Tikuna."
+              }
+            ]
+          },
+          {
+            "number": 16,
+            "title": "Questão 16 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "A",
+            "correctText": "Passa por fenômenos de variação linguística como qualquer outra língua.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Passa por fenômenos de variação linguística como qualquer outra língua."
+              },
+              {
+                "letter": "B",
+                "text": "Apresenta variações regionais, assumindo novo sentido para algumas palavras."
+              },
+              {
+                "letter": "C",
+                "text": "Sofre mudança estrutural motivada pelo uso de sinais diferentes para algumas palavras."
+              },
+              {
+                "letter": "D",
+                "text": "Diferencia-se em todo o Brasil, desenvolvendo cada região a sua própria língua de sinais."
+              },
+              {
+                "letter": "E",
+                "text": "É ininteligível para parte dos usuários em razão das mudanças de sinais motivadas geograficamente."
+              }
+            ]
+          },
+          {
+            "number": 17,
+            "title": "Questão 17 - ENEM 2023",
+            "context": "Como é bom reencontrar os leitores da _Revista da Cultura_ por meio de uma publicação com outro visual, conteúdo de qualidade e interesses ampliados! _\\]cultura\\[_, este nome simples, e eu diria mesmo familiar, nasce entre dois colchetes voltados para fora. E não é por acaso: são sinais abertos, receptivos, propícios à circulação de ideias. O DNA da publicação se mantém o mesmo, afinal, por longos anos montamos nossas edições com assuntos saídos das estantes de uma grande livraria — e assim continuará sendo. Literatura, sociologia, filosofia, artes… nunca será difícil montar a pauta da revista porque os livros nos ensinam que monotonia é só para quem não lê.\n\nHERZ, P. J _**\\]cultura\\[**_, n. 1, jun. 2018 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "D",
+            "correctText": "Identidade da revista, voltada para a recepção e a promoção de ideias circulantes em livros.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Perfil de público-alvo, constituído por leitores exigentes e especializados em leitura acadêmica."
+              },
+              {
+                "letter": "B",
+                "text": "Propósito do editor, chamando a atenção para o rigor normativo nos textos da revista."
+              },
+              {
+                "letter": "C",
+                "text": "Exclusividade na seleção temática, direcionada para a área das ciências humanas."
+              },
+              {
+                "letter": "D",
+                "text": "Identidade da revista, voltada para a recepção e a promoção de ideias circulantes em livros."
+              },
+              {
+                "letter": "E",
+                "text": "Padrão editorial dos artigos, organizados em torno de uma proposta de design inovador."
+              }
+            ]
+          },
+          {
+            "number": 18,
+            "title": "Questão 18 - ENEM 2023",
+            "context": "**TEXTO I**\n\n**Alegria, alegria**  \nO sol nas bancas de revista  \nMe enche de alegria e preguiça  \nQuem lê tanta noticia  \nEu vou  \nPor entre fotos e nomes  \nOs olhos cheios de cores  \nO peito cheio de amores vãos  \nEu vou  \nPor que não, por que não?\n\nVELOSO, C. **Alegria, alegria**. Rio de Janeiro: Polygram, 1990 (fragmento)\n\n**ТЕХТО II**\n\n**Anjos tronchos**  \nUns anjos tronchos do Vale do Silício  \nDesses que vivem no escuro em plena luz  \nDisseram vai ser virtuoso no vício  \nDas telas dos azuis mais do que azuis\n\nAgora a minha história é um denso algoritmo  \nQue vende venda a vendedores reais  \nNeurônios meus ganharam novo outro ritmo  \nE mais, e mais, e mais, e mais, e mais\n\nVELOSO, C. **Meu coco**. Rio de Janeiro: Sony, 2021 (fragmento)",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "B",
+            "correctText": "Percepção da profusão de informações gerada pela tecnologia.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Referência às cores como elemento de crítica a hábitos contemporâneos."
+              },
+              {
+                "letter": "B",
+                "text": "Percepção da profusão de informações gerada pela tecnologia."
+              },
+              {
+                "letter": "C",
+                "text": "Contraposição entre os vícios e as virtudes da vida moderna."
+              },
+              {
+                "letter": "D",
+                "text": "Busca constante pela liberdade de expressão individual."
+              },
+              {
+                "letter": "E",
+                "text": "Crítica à finalidade comercial das notícias."
+              }
+            ]
+          },
+          {
+            "number": 19,
+            "title": "Questão 19 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "D",
+            "correctText": "Evidenciar argumentos que reforçam a ideia de que os negros são vítimas em potencial da violência.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Ressaltar a importância da poesia para denunciar a morte de negros, que cresce a cada dia."
+              },
+              {
+                "letter": "B",
+                "text": "Destacar o crescimento exponencial da temática do preconceito na produção literária no Brasil."
+              },
+              {
+                "letter": "C",
+                "text": "Demonstrar o incremento no quantitativo de expressões artísticas na discussão de problemas sociais."
+              },
+              {
+                "letter": "D",
+                "text": "Evidenciar argumentos que reforçam a ideia de que os negros são vítimas em potencial da violência."
+              },
+              {
+                "letter": "E",
+                "text": "Salientar o aumento da participação de jovens nos movimentos de resistência na área da cultura."
+              }
+            ]
+          },
+          {
+            "number": 20,
+            "title": "Questão 20 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "E",
+            "correctText": "Criticar o obstáculo promovido pelos usos especializa- dos da linguagem.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Revelar a origem religiosa da linguagem."
+              },
+              {
+                "letter": "B",
+                "text": "Questionar o temor sobre o futuro da linguagem."
+              },
+              {
+                "letter": "C",
+                "text": "Descrever a relação entre sociedade e linguagem."
+              },
+              {
+                "letter": "D",
+                "text": "Apresentar as consequências do esfacelamento da linguagem."
+              },
+              {
+                "letter": "E",
+                "text": "Criticar o obstáculo promovido pelos usos especializa- dos da linguagem."
+              }
+            ]
+          },
+          {
+            "number": 21,
+            "title": "Questão 21 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "D",
+            "correctText": "Propiciaram melhor compreensão dos sintomas dos pacientes.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Apontaram erros motivados pelo desconhecimento da variedade linguística local."
+              },
+              {
+                "letter": "B",
+                "text": "Explicaram problemas provocados pela incapacidade de comunicação."
+              },
+              {
+                "letter": "C",
+                "text": "Descobriram novos sintomas de doenças existentes na comunidade."
+              },
+              {
+                "letter": "D",
+                "text": "Propiciaram melhor compreensão dos sintomas dos pacientes."
+              },
+              {
+                "letter": "E",
+                "text": "Divulgaram um novo rol de doenças características da localidade."
+              }
+            ]
+          },
+          {
+            "number": 22,
+            "title": "Questão 22 - ENEM 2023",
+            "context": "Alguém muito recentemente cortara o mato, que na época das chuvas crescia e rodeava a casa da mãe de Ponciá Vicêncio e de Luandi. Havia também vestígios de que a terra fora revolvida, como se ali fosse plantar uma pequena roça. Luandi sorriu. A mãe devia estar bastante forte, pois ainda labutava a terra. Cantou alto uma cantiga que aprendera com o pai, quando eles trabalhavam na terra dos brancos. Era uma canção que os negros mais velhos ensinavam aos mais novos. Eles diziam ser uma cantiga de voltar, que os homens, lá na África, entoavam sempre, quando estavam regressando da pesca, da caça ou de algum lugar. O pai de Luandi, no dia em que queria agradar à mulher, costumava entoar aquela cantiga ao se aproximar de casa. Luandi não entendia as palavras do canto; sabia, porém, que era uma língua que alguns negros falavam ainda, principalmente os velhos. Era uma cantiga alegre. Luandi, além de cantar, acompanhava o ritmo batendo com as palmas das mãos em um atabaque imaginário. Estava de regresso à terra. Voltava em casa. Chegava cantando, dançando a doce e vitoriosa cantiga de regressar.\n\nEVARISTO, C. **Ponciá Vicêncio**. Rio de Janeiro: Pallas, 2018.",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "C",
+            "correctText": "Preserva a ancestralidade africana por meio da tradição oral.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Representa a memória de uma língua africana extinta."
+              },
+              {
+                "letter": "B",
+                "text": "Exalta a rotina executada por jovens afrodescendentes."
+              },
+              {
+                "letter": "C",
+                "text": "Preserva a ancestralidade africana por meio da tradição oral."
+              },
+              {
+                "letter": "D",
+                "text": "Resgata a musicalidade africana por meio de palavras inteligíveis"
+              },
+              {
+                "letter": "E",
+                "text": "Remonta à tristeza dos negros mais velhos com saudade da África."
+              }
+            ]
+          },
+          {
+            "number": 23,
+            "title": "Questão 23 - ENEM 2023",
+            "context": "TEXTO I  \nZapeei os canais, como há dezenas de anos faço, e pá: parei num que exibia um episódio daquela velha família do futuro, Os Jetsons.  \nNesse episódio em particular, a Jane Jetson, esposa do George, tratava de dirigir aquele veículo voador deles. Meu queixo foi caindo à medida que as piadinhas machistas sobre mulheres dirigirem foram se acumulando.  \nImpressionante! Que futuro careta aqueles roteiristas imaginavam! Seriam incapazes de projetar algo melhor, e não apenas em termos de tecnologias, robôs e carros voadores? Será que nossa máxima visão de futuro só atinge as coisas, e jamais as pessoas? Como a Jane, uma mulher de 33 anos no desenho, poderia ser o que foram as minhas bisavós?  \nO futuro, naquele desenho, se esqueceu de ser melhor nas relações entre as pessoas. Aliás… tão parecido com a vida.  \nFiquei de cara, como dizemos aqui, ou como dizíamos na minha adolescência, pobre adolescência, aprendendo, sem querer e sem muita defesa, um futuro tão besta quanto o passado.\n\nRIBEIRO, A. E. Disponível em: www.rascunho.com.br. Acesso em: 21 out. 2021 (adaptado).\n\nTEXTO II  \nMasculino e feminino são campos escorregadios que só se definem por oposição, sempre incompleta, um do outro. São formações imaginárias que buscam produzir uma diferença radical e complementar onde só existem, de fato, mínimas diferenças. O resto é questão de estilo. Até pelo menos a segunda metade do século 19, o divisor de águas era claro: os homens ocupavam o espaço público. As mulheres tratavam da vida privada. Privada de quê? De visibilidade, diria Hannah Arendt. De visibilidade pública. Do que as mulheres estiveram privadas até o século 20 foi de presença pública manifesta não em imagem, mas em palavra. A palavra feminina, reservada ao espaço doméstico, não produzia diferença na vida social.\n\nKHEL, M. R. Disponível em: https://alias.estadao.com.br. Acesso em: 19 out. 2021 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "C",
+            "correctText": "Construções imaginárias cristalizadas na sociedade.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Censura a formas de expressão femininas."
+              },
+              {
+                "letter": "B",
+                "text": "Ausência da figura feminina na vida pública."
+              },
+              {
+                "letter": "C",
+                "text": "Construções imaginárias cristalizadas na sociedade."
+              },
+              {
+                "letter": "D",
+                "text": "Limitações inerentes às figuras femininas e masculinas."
+              },
+              {
+                "letter": "E",
+                "text": "Dificuldade na atribuição de papéis masculinos e femininos."
+              }
+            ]
+          },
+          {
+            "number": 24,
+            "title": "Questão 24 - ENEM 2023",
+            "context": "![](https://enem.dev/2023/questions/24/78918e1a-00e2-4972-b8f7-9cc17a935ec2.png)",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "E",
+            "correctText": "Incentivar o público feminino a denunciar crimes de violência contra a mulher durante o período de isolamento",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Divulgar o canal telefônico de atendimento a casos de violência contra a mulher."
+              },
+              {
+                "letter": "B",
+                "text": "Informar sobre a atuação de uma entidade defensora da mulher vítima de violência."
+              },
+              {
+                "letter": "C",
+                "text": "Evidenciar o trabalho da Defensoria Pública em relação ao problema do abuso contra a mulher."
+              },
+              {
+                "letter": "D",
+                "text": "Alertar a sociedade sobre o aumento da violência contra a mulher em decorrência do coronavírus."
+              },
+              {
+                "letter": "E",
+                "text": "Incentivar o público feminino a denunciar crimes de violência contra a mulher durante o período de isolamento"
+              }
+            ]
+          },
+          {
+            "number": 25,
+            "title": "Questão 25 - ENEM 2023",
+            "context": "Passado muito tempo, resolvi tentar falar, porque estava sozinha me embrenhando na mesma vereda que Donana costumava entrar. Ainda recordo da palavra que escolhi: arado. Me deleitava vendo meu pai conduzindo o arado velho da fazenda carregado pelo boi, rasgando a terra para depois lançar grãos de arroz em torrões marrons e vermelhos revolvidos. Gostava do som redondo fácil e ruidoso que tinha ao ser enunciado. “Vou trabalhar no arado.” “Vou arar a terra.” “Seria bom ter um arado novo, esse arado tá troncho e velho.” O som que deixou minha boca era uma aberração, uma desordem, como se no lugar do pedaço perdido da língua tivesse um ovo quente. Era um arado torto, deformado, que penetrava a terra de tal forma a deixá-la infértil, destruída, dilacerada.\n\nVIEIRA JR.. I. **Torto arado**. São Paulo: Todavia, 2019.",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "B",
+            "correctText": "Metaforiza a linguagem como ferramenta de lavoura.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Reflete o olhar do pai sobre as etapas do plantio."
+              },
+              {
+                "letter": "B",
+                "text": "Metaforiza a linguagem como ferramenta de lavoura."
+              },
+              {
+                "letter": "C",
+                "text": "Explicita, na busca pela palavra, o medo da solidão."
+              },
+              {
+                "letter": "D",
+                "text": "Confirma a frustração da narradora com relação à terra."
+              },
+              {
+                "letter": "E",
+                "text": "Sugere, na ausência da linguagem, a estagnação do tempo."
+              }
+            ]
+          },
+          {
+            "number": 26,
+            "title": "Questão 26 - ENEM 2023",
+            "context": "**A escravidão**\n\nEsses meninos que aí andam jogando peteca não viram nunca um escravo… Quando crescerem, saberão que já houve no Brasil uma raça triste, votada à escravidão e ao desespero; e verão nos museus a coleção hedionda dos troncos, dos vira-mundos e dos bacalhaus; e terão notícias dos trágicos horrores de uma época maldita: filhos arrancados ao seio das mães, virgens violadas em pranto, homens assados lentamente em fornos de cal, mulheres nuas recebendo na sua mísera nudez desvalida o duplo ultraje das chicotadas e dos olhares do feitor bestial. \\[…\\] Mas a sua indignação nunca poderá ser tão grande como a daqueles que nasceram e cresceram em pleno horror, no meio desse horrível drama de sangue e lodo, sentindo dentro do ouvido e da alma, numa arrastada e contínua melopeia, o longo gemer da raça mártir — orquestração satânica de todos os soluços, de todas as impressões, de todos os lamentos que a tortura e a injustiça podem arrancar a gargantas humanas.\n\nBILAC, O. Disponível em: www.escritas.org. Acesso em: 29 out. 2021",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "C",
+            "correctText": "Antecipar o futuro apagamento das marcas da escravidão no contexto social.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Descrever de modo impessoal as consequências da exploração racial sobre as gerações futuras."
+              },
+              {
+                "letter": "B",
+                "text": "Contrapor a infância privilegiada das crianças da época à infância violentada das crianças escravizadas."
+              },
+              {
+                "letter": "C",
+                "text": "Antecipar o futuro apagamento das marcas da escravidão no contexto social."
+              },
+              {
+                "letter": "D",
+                "text": "Criticar a atenuação da violência contra os povos escravizados nas memórias retratadas pelos museus."
+              },
+              {
+                "letter": "E",
+                "text": "Imaginar a reação de indiferença de seus contemporâneos com os escravizados libertos."
+              }
+            ]
+          },
+          {
+            "number": 27,
+            "title": "Questão 27 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "A",
+            "correctText": "Repetição do pronome indefinido \"todos\".",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Repetição do pronome indefinido \"todos\"."
+              },
+              {
+                "letter": "B",
+                "text": "Utilização do travessão na marcação do oposto."
+              },
+              {
+                "letter": "C",
+                "text": "Retomada do antecedente pelo pronome \"isso\"."
+              },
+              {
+                "letter": "D",
+                "text": "Contraposição de ideias marcada pela conjunção mas."
+              },
+              {
+                "letter": "E",
+                "text": "Substantivação de expressões pela anteposição do artigo."
+              }
+            ]
+          },
+          {
+            "number": 28,
+            "title": "Questão 28 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "C",
+            "correctText": "Expressar a dificuldade de comunicação.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Revelar as desilusões amorosas."
+              },
+              {
+                "letter": "B",
+                "text": "Refletir sobre a censura à sua voz"
+              },
+              {
+                "letter": "C",
+                "text": "Expressar a dificuldade de comunicação."
+              },
+              {
+                "letter": "D",
+                "text": "Ressaltar a existência de pressões externas."
+              },
+              {
+                "letter": "E",
+                "text": "Manifestar as dores do processo de criação."
+              }
+            ]
+          },
+          {
+            "number": 29,
+            "title": "Questão 29 - ENEM 2023",
+            "context": "Era um gato preto, como convinha a um cultor das boas letras, que já lera Poe traduzido por Baudelaire. Preto e gordo. E lerdo. Tão gordo e lerdo que a certa altura observei que ia perdendo inteiramente as qualidades características da raça, que são em suma o ódio de morte aos ratos. Já nem os afugentava! Os ratos de Ouro Preto são também dignos e solenes — não ria — tradicionalistas… descendentes de outros ratos que naqueles mesmos casarões presenciaram acontecimentos importantes da nossa história… No sobrado do desembargador Tomás Antônio Gonzaga, imagine o senhor uma reunião dos sonhadores inconfidentes, com os antepassados daqueles ratos a passearem pelo sótão ou mesmo pelo assoalho por entre as pernas dos homens absortos na esperança da independência nacional! E depois, os ancestres daqueles roedores que eu via agora deslizar sutilmente no meu quarto podiam ter subido pelo poste da ignomínia colonial, onde estava exposta a cabeça do Tiradentes! E quando as órbitas se descarnaram ignominiosamente, podiam até ter penetrado no recesso daquele crânio onde verdadeiramente ardera a literatura, com a simplicidade do heroísmo, a febre nacionalista…\n\nALPHONSUS, J. **Contos e novelas**. Rio de Janeiro: Imago; Brasília: INL, 1976.",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "E",
+            "correctText": "Contraste entre austeridade pomposa e imagem repugnante.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Desenho imaginativo do casario colonial de Ouro Preto."
+              },
+              {
+                "letter": "B",
+                "text": "Efeito de apagamento de limites entre ficção e realidade."
+              },
+              {
+                "letter": "C",
+                "text": "Vínculo estabelecido entre animais urbanos e literatura."
+              },
+              {
+                "letter": "D",
+                "text": "Questionamento sutil quanto à sanidade dos inconfidentes."
+              },
+              {
+                "letter": "E",
+                "text": "Contraste entre austeridade pomposa e imagem repugnante."
+              }
+            ]
+          },
+          {
+            "number": 30,
+            "title": "Questão 30 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "A",
+            "correctText": "Culto ao medo, infiltrado em situações do cotidiano.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Culto ao medo, infiltrado em situações do cotidiano."
+              },
+              {
+                "letter": "B",
+                "text": "Sentimento de dúvida quanto à veracidade das informações."
+              },
+              {
+                "letter": "C",
+                "text": "Ambiente de sonho, delineado por imagens perturbadoras."
+              },
+              {
+                "letter": "D",
+                "text": "Incentivo ao desenvolvimento econômico com a iniciativa privada."
+              },
+              {
+                "letter": "E",
+                "text": "Espaço urbano marcado por uma política de isolamento das crianças."
+              }
+            ]
+          },
+          {
+            "number": 31,
+            "title": "Questão 31 - ENEM 2023",
+            "context": "**Migalhas**\n\nEntre a toalha branca e um bule de café\n\nseria inapropriado dizer\n\neu não te amo mais.\n\nEra necessário algo mais solene,\n\num jardim japonês para as perdas pensadas,\n\num noturno de tempestade para arrebentar de dor,\n\numa praia de pedras para chorar em silêncio,\n\numa cama alta para o incenso da despedida,\n\numa janela dando para o abismo.\n\nNo entanto você abaixa os olhos\n\ne recolhe lentamente as migalhas de pão\n\nsobre a mesa posta para dois.\n\nMARQUES, A. M. **A vida submarina**. São Paulo: Cia. das Letras, 2021.",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "C",
+            "correctText": "Diluir em banalidade a comoção de um amor frustrado.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Invocar o interlocutor para uma tomada de posição."
+              },
+              {
+                "letter": "B",
+                "text": "Questionar a validade do envolvimento romântico."
+              },
+              {
+                "letter": "C",
+                "text": "Diluir em banalidade a comoção de um amor frustrado."
+              },
+              {
+                "letter": "D",
+                "text": "Transformar em paz as emoções conflituosas do casal."
+              },
+              {
+                "letter": "E",
+                "text": "Condicionar a existência da paixão a espaços idealizados."
+              }
+            ]
+          },
+          {
+            "number": 32,
+            "title": "Questão 32 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "A",
+            "correctText": "Inter-relação de referenciais estéticos aparentemente distanciados.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Inter-relação de referenciais estéticos aparentemente distanciados."
+              },
+              {
+                "letter": "B",
+                "text": "Valorização de músicas que revelam mensagens de serenidade."
+              },
+              {
+                "letter": "C",
+                "text": "Consagração do repertório erudito como cultura dominante."
+              },
+              {
+                "letter": "D",
+                "text": "Iniciativa de estímulo à vocação turística da cidade."
+              },
+              {
+                "letter": "E",
+                "text": "Divisão hierárquica entre gêneros e estilos musicais."
+              }
+            ]
+          },
+          {
+            "number": 33,
+            "title": "Questão 33 - ENEM 2023",
+            "context": "**Texto I**\n\n![](https://enem.dev/2023/questions/33/d3f9dfc2-3337-498f-8dcd-67a7f5909bbb.png)\n\nSEGALL, L. Eternos caminhantes. Óleo sobre tela, 138 x 184 cm. Museu Lasar Segall. IbramMinc. São Paulo, 1919.\n\n**Texto II**\n\nEm 1933, a obra Eternos caminhantes ingressou em uma das primeiras edições das exposições de Arte Degenerada, promovida por membros do partido nazista alemão. Nos anos seguintes, ela voltaria a ser exibida na mostra denominada Exposição da Vergonha, promovida por pequenos grupos abastados. Em 1937, essa obra foi confiscada pelo Ministério da Propaganda daquele país, na grande ação nacional-socialista contra a “Arte Degenerada”.\n\nSCHWARTZ, J. Perseguição à Arte Moderna em tempos de amarra São Paulo: Museu Lasar Segall, 2018 (adaptado)",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "A",
+            "correctText": "Representar uma estética tida como inconveniente para o ideário político vigente.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Representar uma estética tida como inconveniente para o ideário político vigente."
+              },
+              {
+                "letter": "B",
+                "text": "Manifestar um posicionamento político-cultural concebido por grupos de oposição."
+              },
+              {
+                "letter": "C",
+                "text": "Expressar a cultura artística por meio da representação parcial do corpo humano."
+              },
+              {
+                "letter": "D",
+                "text": "Apresentar uma composição que antecipa o imaginário artístico germânico."
+              },
+              {
+                "letter": "E",
+                "text": "Estimular discussões sobre o papel da arte na construção coletiva de cultura."
+              }
+            ]
+          },
+          {
+            "number": 34,
+            "title": "Questão 35 - ENEM 2023",
+            "context": "A indústria do esporte eletrônico é um mercado que está crescendo em um ritmo mais rápido do que a economia mundial. Sua popularidade cresceu muito e no Brasil não é diferente. De acordo com os dados de uma pesquisa, mais de 64% dos brasileiros que jogam videogame já ouviram falar de esporte eletrônico. No entanto, o que chama a atenção é o crescimento superior a 10% do público praticante comparado ao ano anterior, que subiu de 44,7% para 55,4%. Trata-se de um percentual expressivo, já que o Brasil está no top 3 dentre os países que têm maior número de espectadores de esporte eletrônico do mundo. Comparado ao ano anterior, em 2020, o Brasil teve um marco de crescimento de 20% na audiência. Mundo afora, a árdua dedicação de grandes gamers contribuiu para o reconhecimento do Comitê Olímpico Internacional, aliado a outras cinco federações esportivas e suas desenvolvedoras de jogos, que direcionaram um olhar mais atento ao assunto, permitindo dar o primeiro passo para concretizar, pela primeira vez na história dos jogos eletrônicos, um evento olímpico oficial.\n\nDisponível em: https://chicoterra.com. Acesso em: 15 nov. 2021 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "A",
+            "correctText": "Condição favorável à expansão dessa modalidade.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Condição favorável à expansão dessa modalidade."
+              },
+              {
+                "letter": "B",
+                "text": "Promoção dessa prática por jogadores profissionais."
+              },
+              {
+                "letter": "C",
+                "text": "Impulsionamento de um processo de marketing."
+              },
+              {
+                "letter": "D",
+                "text": "Favorecimento de fabricantes dos jogos."
+              },
+              {
+                "letter": "E",
+                "text": "Modificação da audiência televisiva."
+              }
+            ]
+          },
+          {
+            "number": 35,
+            "title": "Questão 36 - ENEM 2023",
+            "context": "Marabaixo é uma expressão artistico-cultural formada nas tradições e na identificação cultural entre as comunidades negras do Amapá. O nome remonta às mortes de escravizados em navios negreiros que eram jogados na água. Em sua homenagem, hinos de lamento eram cantados mar abaixo, mar acima. Posteriormente, o Marabaixo se integrou à vivência das comunidades negras em um ciclo de danças, cantorias com tambores e festas religiosas, recebendo, em 2018, o título de Patrimônio Cultural do Brasil.\n\nDisponível em: http://portal.iphan.gov.br. Acesso em: 15 nov. 2021 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "A",
+            "correctText": "Ressignificar episódios dramáticos em novas práticas culturais.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Ressignificar episódios dramáticos em novas práticas culturais."
+              },
+              {
+                "letter": "B",
+                "text": "Adaptar coreografias como imitação dos movimentos do mar."
+              },
+              {
+                "letter": "C",
+                "text": "Lembrar dos mortos no passado escravista como forma de lamento."
+              },
+              {
+                "letter": "D",
+                "text": "Perpetuar uma narrativa de apagamento dos fatos históricos traumáticos."
+              },
+              {
+                "letter": "E",
+                "text": "Ritualizar a passagem de atos fúnebres nas produções coletivas com espírito festivo."
+              }
+            ]
+          },
+          {
+            "number": 36,
+            "title": "Questão 37 - ENEM 2023",
+            "context": "O uso das redes sociais como forma de ampliar universos foi uma descoberta recente para o artista Wolney Fernandes, que começou a criar quando o ambiente em Goiás era mais árido em relação às artes visuais. “Hoje, ser diferente é uma potência e quem sabe o que quer com a própria arte encontra espaço”, diz. As colagens artísticas do goiano aparecem em capas de obras literárias pelo Brasil e exterior.\n\nDisponível em: https://opopular.com.br. Acesso em: 15 nov. 2021 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "C",
+            "correctText": "Oferecer uma vitrine internacional para sua produção artística, a fim de dar mais visibilidade a suas obras.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Dar suporte à técnica de colagem em Artes Visuais, contornando dificuldades práticas."
+              },
+              {
+                "letter": "B",
+                "text": "Aproximar-se da estética visual própria da editoração de obras artísticas, como capas de livros."
+              },
+              {
+                "letter": "C",
+                "text": "Oferecer uma vitrine internacional para sua produção artística, a fim de dar mais visibilidade a suas obras."
+              },
+              {
+                "letter": "D",
+                "text": "Enfatizar o caráter original e inovador de suas criações artísticas, diferenciando-se das artes tradicionais."
+              },
+              {
+                "letter": "E",
+                "text": "Trazer um sentido tecnológico às suas colagens, uma vez que as imagens artísticas são recorrentes nas redes sociais."
+              }
+            ]
+          },
+          {
+            "number": 37,
+            "title": "Questão 38 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "A",
+            "correctText": "Fusão de manifestações artísticas urbanas contemporâneas com a cultura indígena.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Fusão de manifestações artísticas urbanas contemporâneas com a cultura indígena."
+              },
+              {
+                "letter": "B",
+                "text": "Contraposição das temáticas socioambientais indigenas as questões urbanas."
+              },
+              {
+                "letter": "C",
+                "text": "Rejeição da indústria radiofônica às músicas indígenas."
+              },
+              {
+                "letter": "D",
+                "text": "Distanciamento da realidade social indígena."
+              },
+              {
+                "letter": "E",
+                "text": "E estímulo ao estudo da poesia indígena."
+              }
+            ]
+          },
+          {
+            "number": 38,
+            "title": "Questão 39 - ENEM 2023",
+            "context": "A petição on-line criada por um cidadão paulista surtiu efeito: casado há três anos com seu companheiro, ele pedia a alteração da definição de “casamento” no tradicional dicionário _Michaelis_ em português. Na definição anterior, casamento aparecia como “união legítima entre homem e mulher” e “união legal entre homem e mulher, para constituir família”.\n\nO novo verbete não traz em nenhum momento as palavras homem ou mulher — agora a definição de casamento se refere a “pessoas”.\n\nPara o diretor de comunicação do site onde a petição foi publicada, a iniciativa mostra a “eficiência da mobilização”. “Em dois dias, mudou-se uma definição que permanecia a mesma há décadas”, afirma. E conclui: “A plataforma serve para todos os tipos de causas, para as mudanças que importam para as pessoas.”.\n\nSENRA, R. Disponível em: www.bbc.com. Acesso em: 29 out. 2015.",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "C",
+            "correctText": "Utilização pública da petição pelos cidadãos.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Inclusão de informações no verbete."
+              },
+              {
+                "letter": "B",
+                "text": "Relevância social da instituição casamento."
+              },
+              {
+                "letter": "C",
+                "text": "Utilização pública da petição pelos cidadãos."
+              },
+              {
+                "letter": "D",
+                "text": "Rapidez na disseminação digital do verbete."
+              },
+              {
+                "letter": "E",
+                "text": "Divulgação de plataformas para a criação de petição"
+              }
+            ]
+          },
+          {
+            "number": 39,
+            "title": "Questão 40 - ENEM 2023",
+            "context": "A neozelandesa Laurel Hubbard fez história nos Jogos Olimpicos. Apesar de ter ficado de fora da disputa por medalhas, a levantadora de peso deixou sua marca na edição de Tóquio por ser a primeira mulher abertamente transgênero a participar de uma competição olímpica. No início da carreira, na década de 1990, a neozelandesa participava de disputas na categoria masculina. Em 2001, aos 23 anos, ela se afastou da atividade. “A pressão de tentar me encaixar em um mundo que talvez não tenha sido feito para pessoas como eu se tornou um fardo muito grande para suportar.” Em 2012, Laurel começou sua transição de gênero por meio de terapias hormonais e, em 2013, declarou abertamente ser uma mulher trans. Para o Comitê Olímpico Internacional, a participação de mulheres trans nos Jogos é permitida caso o nível de testosterona, hormônio que aumenta a massa muscular, esteja abaixo de 10 nanomols por litro por pelo menos 12 meses.\n\nDisponivel em: https://revistagalileu.globo.com Acesso em: 18 nov. 2021 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "B",
+            "correctText": "Dependência de características biológicas padronizadas.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Dificuldade de conseguir bons resultados esportivos."
+              },
+              {
+                "letter": "B",
+                "text": "Dependência de características biológicas padronizadas."
+              },
+              {
+                "letter": "C",
+                "text": "Inexistência de uma categoria para pessoas transgênero"
+              },
+              {
+                "letter": "D",
+                "text": "Necessidade de afastamento temporário das competições"
+              },
+              {
+                "letter": "E",
+                "text": "Impossibilidade de uso controlado de substâncias"
+              }
+            ]
+          },
+          {
+            "number": 40,
+            "title": "Questão 41 - ENEM 2023",
+            "context": "“Ganhei 25 medalhas em mundiais, sete em Jogos Olímpicos, e sou uma sobrevivente de abuso sexual.” Foi assim que Simone Biles se apresentou ao comitê do Senado norte-americano que investiga as supostas falhas do FBI no caso Larry Nassar. Biles e outras três atletas, vítimas dos abusos do ex-médico da equipe de ginástica feminina dos EUA, exigiram que os agentes da investigação sejam processados por falta de ação prévia contra Nassar, agora preso. Biles esclareceu que culpa Larry Nassar e “todo o sistema que o permitiu e o perpetrou”, acusando a Federação de Ginástica e o Comitê Olímpico dos Estados Unidos de saberem “muito antes” que ela havia sofrido abusos. A melhor ginasta do mundo é um ícone. Nos Jogos Olímpicos de Tóquio, uma lesão psicológica a impediu de competir como previa. No entanto, ela chegou ao topo como uma líder no trabalho de acabar com o preconceito com os problemas de saúde mental. “Não quero que nenhum outro atleta olímpico sofra o horror que eu e outras centenas suportamos e continuamos suportando até hoje”, afirmou.\n\nDisponível em https://brasil.elpais.com Acesso em 31 out 2021 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "B",
+            "correctText": "A dimensão emocional dos atletas.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "O desempenho atlético internacional."
+              },
+              {
+                "letter": "B",
+                "text": "A dimensão emocional dos atletas."
+              },
+              {
+                "letter": "C",
+                "text": "Os comitês olímpicos nacionais."
+              },
+              {
+                "letter": "D",
+                "text": "As instituições de inteligência."
+              },
+              {
+                "letter": "E",
+                "text": "As federações esportivas."
+              }
+            ]
+          },
+          {
+            "number": 41,
+            "title": "Questão 42 - ENEM 2023",
+            "context": "O acesso às Práticas Corporais/Atividades Físicas (PC/AF) é desigual no Brasil, à semelhança de outros indicadores sociais e de saúde. Em geral, PC/AF prazerosas, diversificadas, mais afeitas ao período de lazer estão concentradas nas populações mais abastadas. As atividades físicas de deslocamento, trajetos a pé ou de bicicleta para estudar ou trabalhar, por exemplo, são mais frequentes na classe social menos favorecida. Aqui, há uma relação inversa e perversa entre variáveis socioeconômicas de acesso às PC/AF. As maiores prevalências de inatividade física foram em mulheres, pessoas com 60 anos ou mais, negros, pessoas com autoavaliação de saúde ruim ou muito ruim, com renda familiar de até quatro salários mínimos por pessoa, pessoas que desconhecem programas públicos de PC/A e residentes em áreas sem locais públicos para a prática.\n\nKNUTH, A. G.; ANTUNES, P. C. **Saúde e Sociedade**, n. 2, 2021 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "E",
+            "correctText": "Desigualdade entre classes sociais.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Diferença entre homens e mulheres."
+              },
+              {
+                "letter": "B",
+                "text": "Inexistência de políticas públicas."
+              },
+              {
+                "letter": "C",
+                "text": "Diversidade de faixa etária."
+              },
+              {
+                "letter": "D",
+                "text": "Variação de condição étnica."
+              },
+              {
+                "letter": "E",
+                "text": "Desigualdade entre classes sociais."
+              }
+            ]
+          },
+          {
+            "number": 42,
+            "title": "Questão 43 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "A",
+            "correctText": "Metáforas relacionadas à trajetória pessoal e criadora do homenageado.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Metáforas relacionadas à trajetória pessoal e criadora do homenageado."
+              },
+              {
+                "letter": "B",
+                "text": "Recursos fonológicos empregados para a valorização do ritmo do texto."
+              },
+              {
+                "letter": "C",
+                "text": "Frases curtas e diretas no relato de vida e da morte do homenageado."
+              },
+              {
+                "letter": "D",
+                "text": "Contraposição de ideias presentes na obra do homenageado."
+              },
+              {
+                "letter": "E",
+                "text": "Seleção vocabular representativa do sentimento de nostalgia."
+              }
+            ]
+          },
+          {
+            "number": 43,
+            "title": "Questão 44 - ENEM 2023",
+            "context": "![](https://enem.dev/broken-image.svg)",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "A",
+            "correctText": "Divulgar um conjunto de benefícios proporcionados pela amamentação.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Divulgar um conjunto de benefícios proporcionados pela amamentação."
+              },
+              {
+                "letter": "B",
+                "text": "Apresentar tratamentos para infecções respiratórias em bebês."
+              },
+              {
+                "letter": "C",
+                "text": "Defender o direito das mulheres de amamentar em público."
+              },
+              {
+                "letter": "D",
+                "text": "Orientar sobre os exercícios para uma boa amamentação."
+              },
+              {
+                "letter": "E",
+                "text": "Informar sobre o aumento de anticorpos nas mães."
+              }
+            ]
+          },
+          {
+            "number": 44,
+            "title": "Questão 45 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "E",
+            "correctText": "Chamar a atenção da população sobre a qualidade dos serviços de saúde pública para o idoso.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "A sensibilizar o idoso a respeito dos cuidados com a saude."
+              },
+              {
+                "letter": "B",
+                "text": "Alertar os governantes sobre os cuidados requeridos pelo idoso."
+              },
+              {
+                "letter": "C",
+                "text": "Divulgar o trabalho da Sociedade Brasileira de Geriatria e Gerontologia."
+              },
+              {
+                "letter": "D",
+                "text": "Informar o setor público sobre o retrocesso da legislação destinada à população idosa."
+              },
+              {
+                "letter": "E",
+                "text": "Chamar a atenção da população sobre a qualidade dos serviços de saúde pública para o idoso."
+              }
+            ]
+          },
+          {
+            "number": 45,
+            "title": "Questão 46 - ENEM 2023",
+            "context": "![](https://enem.dev/2023/questions/46/4eac436b-15be-438c-8219-f2043ab21946.png)",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "C",
+            "correctText": "Vivências e itinerários socioafetivos.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Percursos e roteiros turísticos."
+              },
+              {
+                "letter": "B",
+                "text": "Trajetos e movimentos holísticos."
+              },
+              {
+                "letter": "C",
+                "text": "Vivências e itinerários socioafetivos."
+              },
+              {
+                "letter": "D",
+                "text": "Fronteiras e demarcações territoriais."
+              },
+              {
+                "letter": "E",
+                "text": "Profissões e interesses econômicos."
+              }
+            ]
+          },
+          {
+            "number": 46,
+            "title": "Questão 47 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "D",
+            "correctText": "Práticas de letramento e transformação cultural.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Hábitos de leitura e mobilidade regional."
+              },
+              {
+                "letter": "B",
+                "text": "Circulação de impressos e trânsito religioso."
+              },
+              {
+                "letter": "C",
+                "text": "Valorização da lingua e imigração estrangeira."
+              },
+              {
+                "letter": "D",
+                "text": "Práticas de letramento e transformação cultural."
+              },
+              {
+                "letter": "E",
+                "text": "Flexibilização do ensino e reformismo pedagógico."
+              }
+            ]
+          },
+          {
+            "number": 47,
+            "title": "Questão 48 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "A",
+            "correctText": "Cerco aos camponeses, inviabilizando a manutenção das condições para a vida.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Cerco aos camponeses, inviabilizando a manutenção das condições para a vida."
+              },
+              {
+                "letter": "B",
+                "text": "Descaso aos latifundiários, impactando a plantação de alimentos para a exportação."
+              },
+              {
+                "letter": "C",
+                "text": "Desprezo ao assalariado, afetando o engajamento dos sindicatos para o trabalhador."
+              },
+              {
+                "letter": "D",
+                "text": "Desrespeito aos governantes, comprometendo a criação de empregos para o lavrador."
+              },
+              {
+                "letter": "E",
+                "text": "Assédio ao empresariado, dificultando o investimento de maquinários para a produção."
+              }
+            ]
+          },
+          {
+            "number": 48,
+            "title": "Questão 49 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "E",
+            "correctText": "Assegurar a integridade territorial.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Promover a ocupação rural."
+              },
+              {
+                "letter": "B",
+                "text": "Favorecer a liberdade religiosa."
+              },
+              {
+                "letter": "C",
+                "text": "Descentralizar a gestão pública."
+              },
+              {
+                "letter": "D",
+                "text": "Incentivar a pluralidade cultural."
+              },
+              {
+                "letter": "E",
+                "text": "Assegurar a integridade territorial."
+              }
+            ]
+          },
+          {
+            "number": 49,
+            "title": "Questão 50 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "E",
+            "correctText": "Crítica ao eurocentrismo.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Recuperação do tradicionalismo."
+              },
+              {
+                "letter": "B",
+                "text": "Estímulo ao antropocentrismo."
+              },
+              {
+                "letter": "C",
+                "text": "Reforço do etnocentrismo."
+              },
+              {
+                "letter": "D",
+                "text": "Resgate do teocentrismo."
+              },
+              {
+                "letter": "E",
+                "text": "Crítica ao eurocentrismo."
+              }
+            ]
+          },
+          {
+            "number": 50,
+            "title": "Questão 50 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "E",
+            "correctText": "Crítica ao eurocentrismo.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Recuperação do tradicionalismo."
+              },
+              {
+                "letter": "B",
+                "text": "Estímulo ao antropocentrismo."
+              },
+              {
+                "letter": "C",
+                "text": "Reforço do etnocentrismo."
+              },
+              {
+                "letter": "D",
+                "text": "Resgate do teocentrismo."
+              },
+              {
+                "letter": "E",
+                "text": "Crítica ao eurocentrismo."
+              }
+            ]
+          },
+          {
+            "number": 51,
+            "title": "Questão 51 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "C",
+            "correctText": "Mediar os conflitos territoriais.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Promover o bem-estar social."
+              },
+              {
+                "letter": "B",
+                "text": "Negociar o apoio muçulmano."
+              },
+              {
+                "letter": "C",
+                "text": "Mediar os conflitos territoriais."
+              },
+              {
+                "letter": "D",
+                "text": "Estimular a cooperação regional."
+              },
+              {
+                "letter": "E",
+                "text": "Combater os governos autocráticos."
+              }
+            ]
+          },
+          {
+            "number": 52,
+            "title": "Questão 52 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "A",
+            "correctText": "Participação sociopolítica.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Participação sociopolítica."
+              },
+              {
+                "letter": "B",
+                "text": "Definição estético-cultural."
+              },
+              {
+                "letter": "C",
+                "text": "Competição econômica local."
+              },
+              {
+                "letter": "D",
+                "text": "Manutenção do sistema escolar."
+              },
+              {
+                "letter": "E",
+                "text": "Capacitação de mobilidade individual."
+              }
+            ]
+          },
+          {
+            "number": 53,
+            "title": "Questão 53 - ENEM 2023",
+            "context": "A cordilheira do Himalaia tem mais de 50 milhões de anos., sendo classificada como a maior cordilheira do planeta. Originário da língua sânscrito, comum na região, seu nome quer dizer “morada da neve”. É possível encontrar nessa cordilheira as quinze maiores montanhas do mundo. Ao todo, existem mais de cem picos, que contam com altitudes bem maiores que 7 000 m. O Everest, considerado o ponto mais alto da Terra, tem nada menos que 8 848 m de altitude, e continua crescendo, aproximadamente, 0,8 mm a cada ano.\n\nDisponível em: https://meioambiente.culturamix.com. Acesso em: 12 nov. 2021 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "B",
+            "correctText": "Encontro de placas tectônicas.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Derrame de lava vulcânica."
+              },
+              {
+                "letter": "B",
+                "text": "Encontro de placas tectônicas."
+              },
+              {
+                "letter": "C",
+                "text": "Ação do intemperismo químico."
+              },
+              {
+                "letter": "D",
+                "text": "Sedimentação de erosão eólica."
+              },
+              {
+                "letter": "E",
+                "text": "Derretimento de geleiras glaciais."
+              }
+            ]
+          },
+          {
+            "number": 54,
+            "title": "Questão 54 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "A",
+            "correctText": "Apresentar uma visão dualista.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Apresentar uma visão dualista."
+              },
+              {
+                "letter": "B",
+                "text": "Confirmar uma tese naturalista."
+              },
+              {
+                "letter": "C",
+                "text": "Demonstrar uma premissa relativa."
+              },
+              {
+                "letter": "D",
+                "text": "Sustentar um argumento idealista."
+              },
+              {
+                "letter": "E",
+                "text": "Defender uma posição intencionalista."
+              }
+            ]
+          },
+          {
+            "number": 55,
+            "title": "Questão 55 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "A",
+            "correctText": "Consumo de produtos culturais e elaborados no mesmo sistema produtivo do capitalismo",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Consumo de produtos culturais e elaborados no mesmo sistema produtivo do capitalismo"
+              },
+              {
+                "letter": "B",
+                "text": "Forma de realizar as diversas potencialidades da natureza humana."
+              },
+              {
+                "letter": "C",
+                "text": "Alternativa para equilibrar tensões psicológicas do dia a dia."
+              },
+              {
+                "letter": "D",
+                "text": "Promoção da satisfação de necessidades artificiais."
+              },
+              {
+                "letter": "E",
+                "text": "Mecanismo de organização do ócio e do prazer."
+              }
+            ]
+          },
+          {
+            "number": 56,
+            "title": "Questão 56 - ENEM 2023",
+            "context": "![](https://enem.dev/broken-image.svg)\n\nLAERTE. Disponível em: www.laerte.art.br. Acesso em: 23 nov. 2021 (adaptado)",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "C",
+            "correctText": "Participação em ações decisórias.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Situação de revolta individual."
+              },
+              {
+                "letter": "B",
+                "text": "Satisfação de desejos pessoais."
+              },
+              {
+                "letter": "C",
+                "text": "Participação em ações decisórias."
+              },
+              {
+                "letter": "D",
+                "text": "Permanência em passividade social."
+              },
+              {
+                "letter": "E",
+                "text": "Conivência em interesses partidários."
+              }
+            ]
+          },
+          {
+            "number": 57,
+            "title": "Questão 57 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "E",
+            "correctText": "Relações interpessoais medidas pela autonomia dos indivíduos.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Rejeição particular amparada pelo desejo de poder."
+              },
+              {
+                "letter": "B",
+                "text": "Decisão subjetiva determinada pela vontade divina."
+              },
+              {
+                "letter": "C",
+                "text": "Liberdade mitigada pela predestinação do espírito."
+              },
+              {
+                "letter": "D",
+                "text": "Escolhas humanas definidas pelo conhecimento empírico."
+              },
+              {
+                "letter": "E",
+                "text": "Relações interpessoais medidas pela autonomia dos indivíduos."
+              }
+            ]
+          },
+          {
+            "number": 58,
+            "title": "Questão 58 - ENEM 2023",
+            "context": "A Cavalgada de Sant’Ana é uma expressão da devoção dos vaqueiros à padroeira de Caicó (RN). Nas décadas de 1950 a 1970, esse evento, então denominado Cavalaria, era celebrado pelas pessoas que residiam na zona rural do município de Caicó. Essas pessoas usavam os animais (jegues, mulas e cavalos) como único meio de transporte, sobretudo para se dirigirem à cidade nos dias de feiras, trazendo seus produtos para comercializarem. Estando em Caicó no período da Festa de Sant’Ana, esses agricultores se organizavam em cavalgada até o pátio da Catedral de Sant’Ana para louvar a santa e receber bênção para seus animais. Por volta da década de 1970, com a chegada do automóvel à zona rural do município, essa expressão cultural foi extinta. O meio de transporte utilizando os animais passou a ser substituído por carros, sobretudo caminhonetes e caminhões, que transportavam os camponeses para a cidade em dias de feiras e festas. Desde 2002, um grupo de caicoenses retomou essa expressão cultural e, em conjunto com a associação dos vaqueiros, realiza no primeiro domingo da Festa a Cavalgada de Sant’Ana. O evento, além de contar com a participação dos cavaleiros que residem nas zonas rurais, atrai também pessoas que residem em Caicó, cidades vizinhas e amantes das vaquejadas.\n\nFESTA DE SANT’ANA. Disponivel em: http://portal.iphan.gov.br Acesso em: 12 out. 2021 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "A",
+            "correctText": "Elementos tradicionais e modernos em torno de uma crença religiosa.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Elementos tradicionais e modernos em torno de uma crença religiosa."
+              },
+              {
+                "letter": "B",
+                "text": "Argumentos teológicos e históricos em consequência de uma ordem papal."
+              },
+              {
+                "letter": "C",
+                "text": "Fundamentos estéticos e etnográficos em função de uma cerimônia clerical."
+              },
+              {
+                "letter": "D",
+                "text": "Práticas corporais e esportivas em decorrência de uma imposição eclesiástica."
+              },
+              {
+                "letter": "E",
+                "text": "Discursos filosóficos e antropológicos em resultado de uma determinação paroquial."
+              }
+            ]
+          },
+          {
+            "number": 59,
+            "title": "Questão 59 - ENEM 2023",
+            "context": "Do século XVI em diante, pelo menos nas classes mais altas, o garfo passou a ser usado como utensílio para comer, chegando através da Itália primeiramente à França e, em seguida, à Inglaterra e à Alemanha, depois de ter servido, durante algum tempo, apenas para retirar alimentos sólidos da travessa. Henrique III introduziu-o na França, trazendo-o provavelmente de Veneza. Seus cortesãos não foram pouco ridicularizados por essa maneira “afetada” de comer e, no princípio, não eram muito hábeis no uso do utensílio: pelo menos se dizia que metade da comida cala do garfo no caminho do prato à boca. Em data tão recente como o século XVII, o garfo era ainda basicamente artigo de luxo, geralmente feito de prata ou ouro.\n\nELIAS. N. **O processo civilizador**: uma história dos costumes. Rio de Janeiro: Zahar, 1994.",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "A",
+            "correctText": "Distinção das classes sociais.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Distinção das classes sociais."
+              },
+              {
+                "letter": "B",
+                "text": "Valorização de habitos de higiene."
+              },
+              {
+                "letter": "C",
+                "text": "Exaltação da cultura mediterrânea."
+              },
+              {
+                "letter": "D",
+                "text": "Consagração de tradições medievais."
+              },
+              {
+                "letter": "E",
+                "text": "Disseminação de produtos manufaturados."
+              }
+            ]
+          },
+          {
+            "number": 60,
+            "title": "Questão 60 - ENEM 2023",
+            "context": "Negar o pedido por dinheiro indispensável para necessidades pessoais ou comprar bens usando o nome da pessoa sem o consentimento dela. Ameaçar o corte de recursos dependendo de atitudes pessoais, esconder documentos ou trocar senhas do banco sem avisar. Ou, ainda, proibir a pessoa de trabalhar ou destruir seus pertences. As histórias são comuns, mas às vezes não são reconhecidas como abuso. Mas é uma das cinco formas de conduta contra a mulher previstas na Lei Maria da Penha.\n\nLEWGOY. J. **Conduta quase invisível destrói a vida de mulheres**. Disponível em: https://valorinveste.globo.com. Acesso em: 23 out. 2021 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "D",
+            "correctText": "Violência patrimonial.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Ação difamatória."
+              },
+              {
+                "letter": "B",
+                "text": "Desvio comportamental."
+              },
+              {
+                "letter": "C",
+                "text": "Expressão preconceituosa."
+              },
+              {
+                "letter": "D",
+                "text": "Violência patrimonial."
+              },
+              {
+                "letter": "E",
+                "text": "Desentendimento matrimonial."
+              }
+            ]
+          },
+          {
+            "number": 61,
+            "title": "Questão 61 - ENEM 2023",
+            "context": "Por trás da “mágica” do Google Assistant de sua capacidade de interpretar 26 idiomas está uma enorme equipe de linguistas distribuídos globalmente, trabalhando como subcontratados, que devem rotular tediosamente os dados de treinamento para que funcione. Eles ganham baixos salários e são rotineiramente forçados a trabalhar horas extras não remuneradas. A inteligência artificial não funciona como um pozinho mágico. Ela funciona por meio de trabalhadores que treinam algoritmos incansavelmente até que eles automatizem seus próprios trabalhos.\n\n**A Inteligência Artificial (IA) da economia freelancer está vindo atrás de você**. Disponível em: https://mittechreview.com.br. Acesso em: 6 out. 2021 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "E",
+            "correctText": "Invisibilidade do profissional.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Diversificação da função."
+              },
+              {
+                "letter": "B",
+                "text": "Mobilidade da população."
+              },
+              {
+                "letter": "C",
+                "text": "Autonomia do empregado."
+              },
+              {
+                "letter": "D",
+                "text": "Concentração da produção."
+              },
+              {
+                "letter": "E",
+                "text": "Invisibilidade do profissional."
+              }
+            ]
+          },
+          {
+            "number": 62,
+            "title": "Questão 62 - ENEM 2023",
+            "context": "Enormes alto-falantes sul-coreanos instalados na fronteira com o Norte costumavam transmitir desde canções em estilo K-pop (como é chamado o pop sul-coreano) até boletins climáticos e noticiário crítico ao vizinho comunista. O Norte costuma praticar atividade semelhante, transmitindo por seus alto-falantes discursos críticos a Seul e aliados. Durante os anos 1980, o governo sul-coreano construiu um mastro de 97 metros de altura para hastear sua bandeira no povoado de Daesong-dong, na fronteira com o Norte. O Norte respondeu com a construção de um mastro ainda mais alto (160 m) na cidade fronteiriça de Gijung-dong. “Essas demonstrações são uma válvula de escape competitiva e importante entre os dois lados, fora de um possível conflito militar”, diz o analista Ankit Panda.\n\nTAN, Y. **Disputa de mastros e alto-falantes com K-pop:** as pequenas picuinhas do conflito entre as Coreias. Disponível em: www.bbc.com. Acesso em: 7 nov. 2021 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "C",
+            "correctText": "Divergências político-ideológicas de agentes estatais.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Domínio cultural-identitário de atores sociais."
+              },
+              {
+                "letter": "B",
+                "text": "Disputas étnico-raciais de povos tradicionais."
+              },
+              {
+                "letter": "C",
+                "text": "Divergências político-ideológicas de agentes estatais."
+              },
+              {
+                "letter": "D",
+                "text": "Imposição econômico-financeira de empresas privadas"
+              },
+              {
+                "letter": "E",
+                "text": "Protestos ecológico-sustentáveis de entidades ambientais"
+              }
+            ]
+          },
+          {
+            "number": 63,
+            "title": "Questão 63 - ENEM 2023",
+            "context": "Seda, madeiras aromáticas e têxteis, obras de arte, lã, cristais e muitas, muitas peças de porcelana chegaram ao Brasil ao longo dos séculos XVII e XVIII. A opulência proporcionada pelo ouro fez com que esses itens fossem ainda mais presentes em cidades mineiras como Ouro Preto, Mariana e Sabará. Esses objetos inspiraram a criação das chinesices, termo que designa um tipo de arte que evoca motivos chineses, presentes em várias igrejas barrocas de Minas Gerais. No Brasil, é bem provável que a inspiração para as pinturas nas igrejas barrocas com pássaros, elefantes, tigres, mandarins e pagodes tenha sido tirada de gravuras, tecidos, móveis e, principalmente, das porcelanas chinesas que circulavam livremente em uma sociedade enriquecida pelo comércio do ouro e pedras preciosas.\n\nMARIUZZO, P. **Estudos interdisciplinares ampliam conhecimento sobre chinesice no barroco mineiro**. Disponível em: http://cienciaecultura.bvs.br. Acesso em: 23 nov. 2021 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "B",
+            "correctText": "Intercâmbio transcontinental.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Representação arquitetônica."
+              },
+              {
+                "letter": "B",
+                "text": "Intercâmbio transcontinental."
+              },
+              {
+                "letter": "C",
+                "text": "Dependência econômica."
+              },
+              {
+                "letter": "D",
+                "text": "Intervenção estatal."
+              },
+              {
+                "letter": "E",
+                "text": "Padrão estético."
+              }
+            ]
+          },
+          {
+            "number": 64,
+            "title": "Questão 64 - ENEM 2023",
+            "context": "**Txai Suruí, liderança da Juventude Indígena, profere seu discurso na abertura da COP-26**\n\n“O clima está esquentando, os animais estão desaparecendo, os rios estão morrendo e nossas plantações não florescem como no passado. A Terra está falando: ela nos diz que não temos mais tempo.”\n\nVICK, M. **Quais são as conquistas do movimento indígena na COP-26**. Disponível em: www.nexojornal.com.br. Acesso em: 10 nov. 2021 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "D",
+            "correctText": "Exploração predatória.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Manejo tradicional."
+              },
+              {
+                "letter": "B",
+                "text": "Reciclagem residual."
+              },
+              {
+                "letter": "C",
+                "text": "Consumo consciente."
+              },
+              {
+                "letter": "D",
+                "text": "Exploração predatória."
+              },
+              {
+                "letter": "E",
+                "text": "Reaproveitamento energético."
+              }
+            ]
+          },
+          {
+            "number": 65,
+            "title": "Questão 65 - ENEM 2023",
+            "context": "![](https://enem.dev/broken-image.svg)\n\nNas reportagens publicadas sobre a inauguração de Museu de Arte de São Paulo, em 1947, quando ele ainda ocupava um edifício na rua Sete de Abril, Lina Bo Bardi não foi mencionada nenhuma vez. A arquiteta era responsável pelo projeto do museu que mudaria para sempre a posição de São Paulo no circuito mundial das artes. Mas não houve nenhum registro disso. O louvor se concentrou em seu marido e parceiro profissional, o respeitado crítico de arte Pietro Maria Bardi. Passados 75 anos, a mulher então ignorada recebeu um Leão de Ouro póstumo, a maior homenagem da Bienal de Arquitetura de Veneza, e tem agora sua história contada em duas biografias de peso, que procuram destrinchar uma carreira marcada pela ousadia e pela contradição.\n\nPORTO, W. L**ina Bo Bardi tem sua arquitetura contraditória destrinchada em biografias**. Disponível em: www1.folha.uol.com.br. Acesso em: 10 nov. 2021 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "A",
+            "correctText": "Equidade de genêro.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Equidade de genêro."
+              },
+              {
+                "letter": "B",
+                "text": "Liberdade de expressão."
+              },
+              {
+                "letter": "C",
+                "text": "Admissibilidade de voto."
+              },
+              {
+                "letter": "D",
+                "text": "Igualdade de oportunidade."
+              },
+              {
+                "letter": "E",
+                "text": "Reciprocidade de tratamento."
+              }
+            ]
+          },
+          {
+            "number": 66,
+            "title": "Questão 66 - ENEM 2023",
+            "context": "**ТЕХТО I**\n\nComo é horrível ver um filho comer e perguntar: “Tem mais?” Esta palavra “tem mais” fica oscilando dentro do cérebro de uma mãe que olha as panela e não tem mais.\n\nJESUS, C. M. Quarto de despejo: diário de uma favelada. São Paulo: Ática. 2014.\n\n**ТЕХТО ІІ**\n\nA experiência de ver os filhos com fome na década de 1950, descrita por Carolina, é vivida no Brasil de 2021 por uma moradora de Petrolândia, em Pernambuco. “Eu trabalhava de ajudante de cabeleireira, mas a moça que tinha o salão fechou. Eu vinha me sustentando com o auxílio que tinha, mas agora eu não fui contemplada. Às vezes as pessoas me ajudam com alimentos para os meus filhos. De vez em quando, eu acho algum bico para fazer, mas é muito raro. Tem dias que não tenho nem o leite da minha bebê.”\n\nCARRANÇA, T. “Até o feijão nos esqueceu”: o livro de 1960 que poderia ter sido escritonas favelas de 2021.\n\nDisponível em: www.bbc.com. Acesso em: 6 out. 2021 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "A",
+            "correctText": "Recorrência da miséria.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Recorrência da miséria."
+              },
+              {
+                "letter": "B",
+                "text": "Planejamento da saúde."
+              },
+              {
+                "letter": "C",
+                "text": "Superação da escassez."
+              },
+              {
+                "letter": "D",
+                "text": "Constância da economia."
+              },
+              {
+                "letter": "E",
+                "text": "Romantização da carência."
+              }
+            ]
+          },
+          {
+            "number": 67,
+            "title": "Questão 67 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "B",
+            "correctText": "Utilização sustentável dos recursos naturais.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Difusão comercial de lavouras temporárias."
+              },
+              {
+                "letter": "B",
+                "text": "Utilização sustentável dos recursos naturais."
+              },
+              {
+                "letter": "C",
+                "text": "Ampliação tecnológica da pecuária intensiva."
+              },
+              {
+                "letter": "D",
+                "text": "Padronização alimentar dos povos tradicionais."
+              },
+              {
+                "letter": "E",
+                "text": "Modernização logística de plantios convencionais."
+              }
+            ]
+          },
+          {
+            "number": 68,
+            "title": "Questão 68 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "C",
+            "correctText": "Interferência do espaço geográfico.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Conservação do meio rural."
+              },
+              {
+                "letter": "B",
+                "text": "Crescimento da vegetação ciliar."
+              },
+              {
+                "letter": "C",
+                "text": "Interferência do espaço geográfico."
+              },
+              {
+                "letter": "D",
+                "text": "Equilíbrio do ambiente das cidades."
+              },
+              {
+                "letter": "E",
+                "text": "Controle da proliferação dos animais."
+              }
+            ]
+          },
+          {
+            "number": 69,
+            "title": "Questão 69 - ENEM 2023",
+            "context": "Elas foram as pioneiras dos direitos das mulheres no Afeganistão. Defensoras ferrenhas da lei, buscaram justiça para os mais marginalizados. Mas, agora, mais de 220 juízas afegãs estão escondidas por medo de retaliação sob o regime do Talibã. Uma delas condenou centenas de homens por violência contra as mulheres, incluindo estupro, assassinato e tortura. Mas poucos dias depois que o Talibã assumiu o controle de sua cidade e milhares de criminosos condenados foram libertados da prisão, as ameaças de morte começaram. O país sempre foi considerado um dos lugares mais difíceis e perigosos do mundo para as mulheres. De acordo com estudos de organizações não governamentais, cerca de 87% das mulheres e meninas serão vítimas de abuso durante a vida.\n\nDisponível em: https://g1.globo.com. Acesso em: 12 out. 2021 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "D",
+            "correctText": "Desrespeito à dignidade humana.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Afronta às estruturas sociais."
+              },
+              {
+                "letter": "B",
+                "text": "Desprezo aos valores religiosos."
+              },
+              {
+                "letter": "C",
+                "text": "Transgressão às normas morais."
+              },
+              {
+                "letter": "D",
+                "text": "Desrespeito à dignidade humana."
+              },
+              {
+                "letter": "E",
+                "text": "Oposição aos princípios hierárquicos."
+              }
+            ]
+          },
+          {
+            "number": 70,
+            "title": "Questão 70 - ENEM 2023",
+            "context": "No cemitério, a sociedade religiosa encarregada do funeral, aterrorizada, apressou a cerimônia de tal forma que a mãe de Herzog perdeu o momento em que o caixão do filho começou a ser coberto pela terra. Quatro jornalistas que estavam presos no DOI chegaram para assistir ao sepultamento. Um se afastara, chorando. Dizia: Eles matam, eles matam! Não pergunte nada. Não podemos dizer nada. Eles matam mesmo. Falava-se baixo. Ouviram-se dois curtos discursos. O primeiro, da atriz Ruth Escobar: Até quando vamos suportar tanta violência? Até quando vamos continuar enterrando nossos mortos em silêncio? No segundo, Audálio Dantas recitou o Navio negreiro, de Castro Alves: _Senhor Deus dos desgraçados / Dizei-me Vós, Senhor Deus / Se é mentira, se é verdade, / Tanto horror perante os céus._\n\nGASPARI, E. A ditadura encurralada. São Paulo: Cia. das Letras, 2004.",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "C",
+            "correctText": "Institucionalização de mecanismos repressivos para eliminar os focos de resistência.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Incorporação da estética popular para justificar o ideal de integração nacional."
+              },
+              {
+                "letter": "B",
+                "text": "Afirmação da estratégia psicossocial para favorecer o objetivo de propaganda cívica."
+              },
+              {
+                "letter": "C",
+                "text": "Institucionalização de mecanismos repressivos para eliminar os focos de resistência."
+              },
+              {
+                "letter": "D",
+                "text": "Adoção de cerimoniais públicos para controlar as manifestações de grupos opositores."
+              },
+              {
+                "letter": "E",
+                "text": "Estatização de meios de comunicação para selecionar a divulgação de atos governamentais."
+              }
+            ]
+          },
+          {
+            "number": 71,
+            "title": "Questão 71 - ENEM 2023",
+            "context": "Alternativas logísticas estão servindo de instrumentos que ativam os mercados especuladores de terras nas diferentes regiões da Amazônia e constituem em indicadores utilizados por diferentes atores para defender ou denunciar o avanço da cultura da soja na região e, com ela, a retomada do desmatamento. É evidente que o crescimento do desmatamento tem a ver também com a expansão da soja, porém atribuir a ela o fator principal parece não totalmente correto. Parto da compreensão central de que a lógica que gera o desmatamento está articulada pelo tripé grileiros, madeireiros e pecuaristas.\n\nOLIVEIRA, A. U. A Amazônia e a nova geografia da produção da soja. **Terra Livre**, n. 26, jan.-jun. 2006 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "A",
+            "correctText": "Apropriação de áreas devolutas.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Apropriação de áreas devolutas."
+              },
+              {
+                "letter": "B",
+                "text": "Sonegação de impostos federais."
+              },
+              {
+                "letter": "C",
+                "text": "Incorporação de exportação ilegal."
+              },
+              {
+                "letter": "D",
+                "text": "Desoneração de setores produtivos."
+              },
+              {
+                "letter": "E",
+                "text": "Flexibilização de legislação ambiental."
+              }
+            ]
+          },
+          {
+            "number": 72,
+            "title": "Questão 72 - ENEM 2023",
+            "context": "**TEXTO I**\n\nPor hora, apenas os mais abastados poderão sonhar em viajar ao espaço, seja por um foguete ou por um avião híbrido, mas toda a população global poderá sentir os efeitos dessas viagens e avanços tecnológicos. Para uma aventura dessas, as empresas tiveram que criar novas tecnologias, materiais e softwares, o que podem, em algum momento, voltar para a sociedade. A câmera fotográfica, hoje comum no mundo, antes foi uma invenção para ser usada em telescópios e o titânio, usado até na medicina, foi desenvolvido para a construção de foguetes.\n\nORLANDO, G. **Corrida espacial dos bilionários pode trazer vantagens para todos**. Disponível em: https://noticias.r7.com/. Acesso em: 5 nov. 2021 (adaptado).\n\n**TEXTO II**\n\n![](https://enem.dev/2023/questions/72/19b09a90-8898-4d03-b11a-eedae69b1e1d.png)\n\nCAZO. Disponível em: www.humorpolitico.com.br. Acesso em: 5 nov. 2021.",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "B",
+            "correctText": "Expectativa e desconfiança.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Dependência e progresso."
+              },
+              {
+                "letter": "B",
+                "text": "Expectativa e desconfiança."
+              },
+              {
+                "letter": "C",
+                "text": "Angústia e adaptação."
+              },
+              {
+                "letter": "D",
+                "text": "Pioneirismo e retrocesso."
+              },
+              {
+                "letter": "E",
+                "text": "Receio e civilidade."
+              }
+            ]
+          },
+          {
+            "number": 73,
+            "title": "Questão 73 - ENEM 2023",
+            "context": "Os séculos XV e XVI, quando se vão desmoronando as estruturas socioeconômicas da Idade Média perante os novos imperativos da Época moderna, constituem um momento-chave na história florestal de toda a Europa Ocidental. Abre-se, genericamente, um longo período de “crise florestal”, que se manifesta com acuidade nos países onde mais se desenvolvem as atividades industriais e comerciais. As necessidades em produtos lenhosos aumentam drasticamente com o crescimento do consumo nos mercados urbanos e nas regiões onde progridem a metalurgia e a construção naval, além da sua utilização na vida quotidiana de toda a população.\n\nDEVY-VARETA, N. Para uma geografia histórica da floresta portuguesa. **Revista da Faculdade de Letras – Geografia,** n. 1, 1986 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "A",
+            "correctText": "O processo de expansão marítima.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "O processo de expansão marítima."
+              },
+              {
+                "letter": "B",
+                "text": "A eclosão do renascimento cultural."
+              },
+              {
+                "letter": "C",
+                "text": "A concretização da centralização política."
+              },
+              {
+                "letter": "D",
+                "text": "O movimento de reformas religiosas."
+              },
+              {
+                "letter": "E",
+                "text": "A manutenção do sistema feudal."
+              }
+            ]
+          },
+          {
+            "number": 74,
+            "title": "Questão 74 - ENEM 2023",
+            "context": "Tahuantinsuyu — nome do Império Inca em quéchua — era dividido em quatro partes ou suyus: Chinchaysuyu (noroeste do Peru e Equador), Antisuyu (parte amazônica do império), Collasuyu (atual Bolívia) e Condesuyu (costa do Oceano Pacífico) e tinha Cuzco, no atual Peru, como sua capital imperial. Oficialmente, todas as etnias dominadas pelos incas deveriam adotar a língua quéchua, adorar o Sapa Inca e o Sol e pagar taxas em forma de horas de trabalhos periódicos. No entanto, pode-se dizer que o Império Inca era como um mosaico cultural em que vários e diferentes grupos étnicos adoravam o Sapa Inca e o Sol mas, simultaneamente, continuavam a adorar seus deuses locais e também a falar em suas línguas nativas.\n\nMARTINS, C. **Os incas e os tahuantinsuyu**: apresentação. Disponível em: http://antigo.anphlac.org. Acesso em: 6 out. 2021 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "D",
+            "correctText": "Flexível no que diz respeito aos costumes religiosos.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Aceitável no que alude aos direitos humanos."
+              },
+              {
+                "letter": "B",
+                "text": "Admissível no que remete às crenças coloniais."
+              },
+              {
+                "letter": "C",
+                "text": "Tolerável no que se refere aos regimes tributários."
+              },
+              {
+                "letter": "D",
+                "text": "Flexível no que diz respeito aos costumes religiosos."
+              },
+              {
+                "letter": "E",
+                "text": "Compreensível no que concerne às normas laborais."
+              }
+            ]
+          },
+          {
+            "number": 75,
+            "title": "Questão 75 - ENEM 2023",
+            "context": "A torcida do Fluminense inicia um movimento para mudar a letra de uma das músicas mais populares das arquibancadas tricolores. Grupos pedem a remoção do termo “mulambo imundo”, em uma provocação direta ao Flamengo. Mulambo é um termo que surgiu em Angola, na época da escravatura, e eles eram chamados de mulambos pelos senhores de engenho, os patrões das fazendas.\n\nDisponível em: https://oglobo.globo.com. Acesso em: 23 nov. 2021.",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "C",
+            "correctText": "Condenação do preconceito racial.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "A Rejeição de costumes elitistas."
+              },
+              {
+                "letter": "B",
+                "text": "Repulsão de condutas misóginas."
+              },
+              {
+                "letter": "C",
+                "text": "Condenação do preconceito racial."
+              },
+              {
+                "letter": "D",
+                "text": "Criminalização de práticas homofóbicas"
+              },
+              {
+                "letter": "E",
+                "text": "Contestação do comportamento machista."
+              }
+            ]
+          },
+          {
+            "number": 76,
+            "title": "Questão 76 - ENEM 2023",
+            "context": "![](https://enem.dev/2023/questions/76/4b3eb253-249e-4bc3-bb08-5d48b44c53c1.jpg)\n\nDisponível em: www.insper.edu.br. Acesso em: 27 set. 2021 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "D",
+            "correctText": "Participação feminina no mercado de trabalho.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Flexibilização legal da prática de aborto."
+              },
+              {
+                "letter": "B",
+                "text": "Envelhecimento da população brasileira."
+              },
+              {
+                "letter": "C",
+                "text": "Crescimento dos casos de gravidez precoce."
+              },
+              {
+                "letter": "D",
+                "text": "Participação feminina no mercado de trabalho."
+              },
+              {
+                "letter": "E",
+                "text": "Diminuição dos benefícios na licença-maternidade."
+              }
+            ]
+          },
+          {
+            "number": 77,
+            "title": "Questão 77 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "E",
+            "correctText": "A responsabilidade dos governantes assegura a saúde dos povos.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "As leis observáveis regem o mundo material."
+              },
+              {
+                "letter": "B",
+                "text": "O monarca racional promove a sociedade justa."
+              },
+              {
+                "letter": "C",
+                "text": "O direito natural justifica a liberdade dos homens."
+              },
+              {
+                "letter": "D",
+                "text": "A produção da terra garante a riqueza das nações."
+              },
+              {
+                "letter": "E",
+                "text": "A responsabilidade dos governantes assegura a saúde dos povos."
+              }
+            ]
+          },
+          {
+            "number": 78,
+            "title": "Questão 78 - ENEM 2023",
+            "context": "Os movimentos da agricultura urbana no Rio de Janeiro vêm crescendo nos últimos vinte anos, tanto por meio de reproduções de modelos de vida antigos, vinculados ao resgate dos próprios costumes, como — e cada vez mais — são revelados hábitos inventivos nos quais moradores urbanos de diferentes classes sociais, sem nenhuma referência anterior com o campo, passam a se dedicar a essas atividades. Ao possibilitar o acesso ao plantio e, consequentemente, à alimentação, permite-se uma nova relação com o que se come, reduzindo o percurso da cadeia produtiva e aproximando produtores de consumidores, pois ambos se confundem nas experiências de agricultura urbana.\n\nPORTILHO, M.; RODRIGUES, C. G. O.; FERNANDEZ, A. C. F. Cultivando relações no arranjo local da Penha: a mobilização de mulheres a partir das práticas de agricultura urbana na favela. Cidades, Comunidades e Territórios, n. 42, jun. 2021.",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "A",
+            "correctText": "Ocupação de lugares ociosos.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Ocupação de lugares ociosos."
+              },
+              {
+                "letter": "B",
+                "text": "Densificação da área central."
+              },
+              {
+                "letter": "C",
+                "text": "Valorização do mercado externo."
+              },
+              {
+                "letter": "D",
+                "text": "Priorização de insumos químicos."
+              },
+              {
+                "letter": "E",
+                "text": "Mecanização de técnicas de cultivo."
+              }
+            ]
+          },
+          {
+            "number": 79,
+            "title": "Questão 79 - ENEM 2023",
+            "context": "**TEXTO I**\n\nGerineldo dorme porque já está conformado com o seu mundo. Porque já sabe tudo o que lhe pode acontecer após haver submetido todos os objetos que o rodeiam a um minucioso inventário de possibilidades. Seu apartamento, mais que um apartamento, é uma teoria de sorte e de azar. Melhor que ninguém, Gerineldo conhece o coeficiente da dilatação de suas janelas e mantém marcado no termômetro, com uma linha vermelha, o ponto em que se quebrarão os vidros, despedaçados em estilhaços de morte. Sabe que os arquitetos e os engenheiros já previram tudo, menos o que nunca já aconteceu.\n\nMARQUEZ, G. G. O pessimista. In: Textos do Caribe. Rio de Janeiro: Record, 1981.\n\n**ТЕХТО II**\n\nA situação é o sujeito inteiro (ele não é nada a não ser a sua situação) e é também a coisa inteira (nunca há mais nada senão as coisas). É o sujeito a elucidar as coisas pela sua própria superação, se assim quisermos; ou são as coisas a reenviar ao sujeito a imagem dele. É a total facticidade, a contingência absoluta do mundo, do meu nascimento, do meu lugar, do meu passado, dos meus redores — e é a minha liberdade sem limites que faz com que haja para mim uma facticidade.\n\nSARTRE, J.-P. O ser e o nada: ensaio de ontologia fenomenológica. Petrópolis: Vozes, 1997 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "B",
+            "correctText": "Nega a possibilidade de transcendência.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Evidencia a manifestação do inconsciente."
+              },
+              {
+                "letter": "B",
+                "text": "Nega a possibilidade de transcendência."
+              },
+              {
+                "letter": "C",
+                "text": "Contraria o conhecimento difuso."
+              },
+              {
+                "letter": "D",
+                "text": "Sustenta a fugacidade da vida."
+              },
+              {
+                "letter": "E",
+                "text": "Refuta a evolução biológica."
+              }
+            ]
+          },
+          {
+            "number": 80,
+            "title": "Questão 80 - ENEM 2023",
+            "context": "O Golpe Militar de 1964 foi implacável no combate ao que restava das Ligas Camponesas, generalizadas na década anterior. No entanto, em relação aos sindicatos, sua atitude foi ambígua. Por meio de acordos com os Estados Unidos, foram concebidos centros sindicais e cursos de liderança com base em princípios conservadores e ministrados por membros da Igreja Católica.\n\nDEL PRIORE, M.; VENÂNCIO, R. Uma história da vida rural no Brasil. Rio de Janeiro: Ediouro, 2006 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "A",
+            "correctText": "Controlar as tensões políticas.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Controlar as tensões políticas."
+              },
+              {
+                "letter": "B",
+                "text": "Limitar a legislação trabalhista."
+              },
+              {
+                "letter": "C",
+                "text": "Divulgar o programa populista."
+              },
+              {
+                "letter": "D",
+                "text": "Regularizar a propriedade da terra."
+              },
+              {
+                "letter": "E",
+                "text": "Estimular a oferta de mão de obra."
+              }
+            ]
+          },
+          {
+            "number": 81,
+            "title": "Questão 81 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "A",
+            "correctText": "Gestão das ilicitudes pelo sistema judicial.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Gestão das ilicitudes pelo sistema judicial."
+              },
+              {
+                "letter": "B",
+                "text": "Aplicação das sanções pelo modelo equânime."
+              },
+              {
+                "letter": "C",
+                "text": "Supressão dos crimes pela penalização severa."
+              },
+              {
+                "letter": "D",
+                "text": "Regulamentação dos privilégios pela justiça social."
+              },
+              {
+                "letter": "E",
+                "text": "Repartição de vantagens pela hierarquização cultural."
+              }
+            ]
+          },
+          {
+            "number": 82,
+            "title": "Questão 82 - ENEM 2023",
+            "context": "Os vapores cruzavam os mares transportando pessoas, mercadorias e ideias, e ainda carregavam a mala postal, repleta de mensagens. Múltiplas histórias escritas atravessavam o oceano buscando por notícias de filhos e pais, irmãos, maridos e esposas, noivos e noivas. As missivas traziam boas e más novas, comunicavam alegremente nascimentos e casamentos, também doenças e mortes; enviavam declarações de amor e fidelidade, fotos de família; encaminhavam conselhos de velhos, pedidos de ajuda e de dinheiro; expediam cartas bancárias e de chamada. Essa literatura epistolar possibilitava a transmissão e reconstrução das tradições. Os deslocamentos tornaram-se um dos mais potentes produtores de escritura ao longo da história.\n\nTRUZZI, O.; MATOS, I. Saudades: sensibilidades no epistolário de e/imigrantes  \nportuqueses (Portugal-Brasil 1890-1930). Rev. Bras. Hist., n. 70, jul.-dez. 2015.",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "B",
+            "correctText": "Circularidade cultural entre a sociedade de partida e a de acolhimento.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Disputa ideológica entre a comunidade de estrangeiros e a de nativos."
+              },
+              {
+                "letter": "B",
+                "text": "Circularidade cultural entre a sociedade de partida e a de acolhimento."
+              },
+              {
+                "letter": "C",
+                "text": "Controle doutrinário das narrativas do cotidiano de origem e de destino.."
+              },
+              {
+                "letter": "D",
+                "text": "Fiscalização política dos fluxos de populações do Novo e do Velho Mundo."
+              },
+              {
+                "letter": "E",
+                "text": "Monitoramento social dos grupos de trabalhadores da cidade e do campo."
+              }
+            ]
+          },
+          {
+            "number": 83,
+            "title": "Questão 83 - ENEM 2023",
+            "context": "Diversos são os fatores causadores da degradação do solo, atuando de forma direta ou indireta, mas quase sempre a grande maioria das terras degradadas inicia esse processo com o desmatamento, que pode ser seguido por diversas formas de ocupação desordenada, como: corte de taludes para a construção de casas, rodovias e ferrovias, agricultura, com uso da queimada, vários tipos de mineração, irrigação excessiva, crescimento desordenado das cidades, superpastoreio, uso do solo para diversos tipos de despejos industriais e domésticos, sem tratamento da área que recebe esses despejos; enfim, de uma forma ou de outra, os solos tornam-se degradados, sendo muitas vezes difícil, ou quase impossível, a sua recuperação.\n\nGUERRA, A. T. Degradação dos solos: conceitos e temas. In: GUERRA, A. T.; JORGE, M. C. O. (Org.). **Degradação dos solos no Brasil**. Rio de Janeiro: Difel, 2018.",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "C",
+            "correctText": "Diminuição da fertilidade.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Elevação da biomassa."
+              },
+              {
+                "letter": "B",
+                "text": "Redução da salinização."
+              },
+              {
+                "letter": "C",
+                "text": "Diminuição da fertilidade."
+              },
+              {
+                "letter": "D",
+                "text": "Ampliação da microfauna."
+              },
+              {
+                "letter": "E",
+                "text": "Decomposição do substrato."
+              }
+            ]
+          },
+          {
+            "number": 84,
+            "title": "Questão 84 - ENEM 2023",
+            "context": "A partir da década de 1930, começam a ser discutidos no Brasil os princípios de racionalização do trabalho. As preocupações com a cozinha e o trabalho doméstico foram introduzidas com a medicina sanitária e a oferta de gás e eletricidade para uso doméstico no início do século XX. A organização da cozinha visava atingir uma simplificação das tarefas, com a economia de movimentos, e o barateamento dos equipamentos, a partir da produção em grande escala. A padronização e racionalização da habitação e seus componentes visava uma radical transformação da casa, em especial da cozinha, e apoiava-se tanto no desenvolvimento de novos equipamentos quanto nos estudos de racionalização do trabalho doméstico. A principal preocupação era o desenvolvimento de um novo tipo de habitação, que deveria induzir um novo comportamento social.\n\nSILVA, J. L. M. Transformações no espaço doméstico: o fogão a gás e a cozinha paulistana, 1870-1930. Anais do Museu Paulista, n. 2. jul-dez 2007 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "D",
+            "correctText": "Ampliação dos momentos de socialização.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Controle do orçamento familiar."
+              },
+              {
+                "letter": "B",
+                "text": "Libertação das tradições religiosas."
+              },
+              {
+                "letter": "C",
+                "text": "Exercício da representatividade política."
+              },
+              {
+                "letter": "D",
+                "text": "Ampliação dos momentos de socialização."
+              },
+              {
+                "letter": "E",
+                "text": "Afastamento das atividades especializadas."
+              }
+            ]
+          },
+          {
+            "number": 85,
+            "title": "Questão 85 - ENEM 2023",
+            "context": "Produtores rurais europeus são antigos opositores de um grande acordo com o Mercosul. Na visão deles, existe um nítido risco de concorrência desleal, pois, na Europa, é preciso seguir regras mais rígidas de produção, o que encarece o processo. Assim, eles não conseguiriam competir com os preços, por exemplo, da carne brasileira e teriam seus negócios ameaçados. Por outro lado, o setor industrial europeu se mobiliza a favor do acordo, uma vez que as reduções de tarifas no comércio internacional dariam maior acesso ao mercado sul-americano. Um exemplo é o setor automotivo europeu, que prevê maior participação e concorrência nos países do Mercosul caso o acordo siga em frente.\n\nROUBICEK, M. Como o risco ambiental afeta o acordo entre Mercosul e União Europeia.  \nDisponível em: www.nexojornal.com.br. Acesso em: 25 out. 2021.",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "D",
+            "correctText": "Manutenção das barreiras fitossanitárias e a livre circulação de mercadorias.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Restrição dos fluxos migratórios e a maior atuação de sindicatos."
+              },
+              {
+                "letter": "B",
+                "text": "Ampliação das leis trabalhistas e a plena importação de manufaturados."
+              },
+              {
+                "letter": "C",
+                "text": "Proteção das florestas nacionais e a ampla transferência de tecnologias."
+              },
+              {
+                "letter": "D",
+                "text": "Manutenção das barreiras fitossanitárias e a livre circulação de mercadorias."
+              },
+              {
+                "letter": "E",
+                "text": "Remoção dos entraves alfandegários e a melhor remuneração de empregados."
+              }
+            ]
+          },
+          {
+            "number": 86,
+            "title": "Questão 86 - ENEM 2023",
+            "context": "Durante a Revolução Francesa, um certo padre Niollant escondeu-se no pequeno castelo de L’Escarbas. Pagou amplamente a hospitalidade do velho fidalgo ocupando-se da educação de sua filha, Anaïs. A presença da mãe em nada modificou essa educação masculina dada a uma jovem criatura já muito inclinada à independência em virtude da vida no campo. O padre transmitiu à aluna sua intrepidez de opiniões e sua facilidade de julgamento, sem pensar que essas qualidades, tão necessárias num homem, se tornam defeitos numa mulher destinada aos humildes afazeres de mãe de família. Embora o padre recomendasse continuamente à aluna ser tanto mais graciosa e modesta quanto seu saber era mais extenso, a senhorita de Nègrepelisse ficou com excelente opinião de si mesma.\n\nBALZAC. H. Ilusões perdidas. São Paulo: Penguin Classics:  \nCia. das Letras, 2011 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "E",
+            "correctText": "Ruptura de valores institucionalizados.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Abandono de laços afetivos."
+              },
+              {
+                "letter": "B",
+                "text": "Negação da ideia de subjetividade."
+              },
+              {
+                "letter": "C",
+                "text": "Aceitação da hierarquia de gênero."
+              },
+              {
+                "letter": "D",
+                "text": "Consolidação da estratificação social."
+              },
+              {
+                "letter": "E",
+                "text": "Ruptura de valores institucionalizados."
+              }
+            ]
+          },
+          {
+            "number": 87,
+            "title": "Questão 87 - ENEM 2023",
+            "context": "**TEXTO I**\n\nOriunda da Romênia, Genny Gleizer aportou no Brasil em 1932. Assim como milhares de judeus do Leste Europeu, sua vinda para o Brasil ocorreu em um momento de ascensão do antissemitismo na Europa que tornava precárias suas vidas. O Brasil se colocava como uma possibilidade na busca por condições de sobrevivência e desenvolvimento.\n\nANTÃO, A. C. C. B. Gênero, imigração e política: o caso da judia comunista Genny Gleizer no Governo Vargas (1932-1935). Rio de Janeiro: Casa de Oswaldo Cruz, 2017 (adaptado).\n\n**ТЕХТО II**\n\nA presença judaica no Brasil foi criando aos poucos certas desconfianças que se refletiram em órgãos da imprensa e em círculos intelectuais e políticos. Em parte, essa imagem negativa adviria da onda nacionalista surgida no final dos anos 1910, que concebia imigrantes como concorrentes dos trabalhadores brasileiros, ou como seres improdutivos, exploradores da mão de obra e da riqueza autóctone. Além disso, as elites políticas da época acreditavam que os estrangeiros eram portadores das doutrinas anarquista e comunista, estranhas à “indole do povo brasileiro”. Esses “indesejáveis” seriam um mal externo que corromperia a nação.\n\nMAIO, M. C.: CALAÇA, C. E. Um balanço da bibliografia sobre o antissemitismo  \nno Brasil. In: GRINBERG, K. (Org.). Os judeus no Brasil. Rio de Janeiro: Civilização Brasileira, 2005 (adaptado).",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "B",
+            "correctText": "Aspectos socioeconômicos e ideológicos.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Preceitos teológicos e religiosos."
+              },
+              {
+                "letter": "B",
+                "text": "Aspectos socioeconômicos e ideológicos."
+              },
+              {
+                "letter": "C",
+                "text": "Regulamentações territoriais e alfandegárias."
+              },
+              {
+                "letter": "D",
+                "text": "Orientações constitucionais e estatutárias."
+              },
+              {
+                "letter": "E",
+                "text": "Decretos legislativos e internacionais."
+              }
+            ]
+          },
+          {
+            "number": 88,
+            "title": "Questão 88 - ENEM 2023",
+            "context": "Concorrer e competir não são a mesma coisa. A concorrência pode até ser saudável sempre que a batalha entre agentes, para melhor empreender uma tarefa e obter melhores resultados finais, exige o respeito a certas regras de convivência preestabelecidas ou não. Já a competitividade se funda na invenção de novas armas de luta, num exercício em que a única regra é a conquista da melhor posição. A competitividade é uma espécie de guerra em que tudo vale e, desse modo, sua prática provoca um afrouxamento dos valores morais e um convite ao exercício de violência.\n\nSANTOS, M. **Por uma outra globalização**: do pensamento único à consciência universal. Rio de Janeiro: Record, 2006.",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "A",
+            "correctText": "Adoção do dumping comercial.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Adoção do dumping comercial."
+              },
+              {
+                "letter": "B",
+                "text": "Fusão da função administrativa."
+              },
+              {
+                "letter": "C",
+                "text": "Criação de holding empresarial."
+              },
+              {
+                "letter": "D",
+                "text": "Limitação do mercado monopolista."
+              },
+              {
+                "letter": "E",
+                "text": "Modernização da produção industrial."
+              }
+            ]
+          },
+          {
+            "number": 89,
+            "title": "Questão 89 - ENEM 2023",
+            "context": "![](https://enem.dev/2023/questions/89/9bf9cf75-4df7-495a-8f99-bb6bac2abe2e.PNG)",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "D",
+            "correctText": "Controlar as emissões de carbono.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Expandir o transporte marítimo."
+              },
+              {
+                "letter": "B",
+                "text": "Incentivar os fluxos migratórios."
+              },
+              {
+                "letter": "C",
+                "text": "Monitorar as atividades vulcânicas."
+              },
+              {
+                "letter": "D",
+                "text": "Controlar as emissões de carbono."
+              },
+              {
+                "letter": "E",
+                "text": "Priorizar a utilização de termoelétricas."
+              }
+            ]
+          },
+          {
+            "number": 90,
+            "title": "Questão 90 - ENEM 2023",
+            "context": "",
+            "question": "",
+            "chosen": null,
+            "chosenText": null,
+            "correctLetter": "B",
+            "correctText": "Utilização persuasiva do discurso.",
+            "isCorrect": null,
+            "alternatives": [
+              {
+                "letter": "A",
+                "text": "Elaboração conceitual de entendimentos."
+              },
+              {
+                "letter": "B",
+                "text": "Utilização persuasiva do discurso."
+              },
+              {
+                "letter": "C",
+                "text": "Narração alegórica dos rapsodos."
+              },
+              {
+                "letter": "D",
+                "text": "Investigação empírica da physis."
+              },
+              {
+                "letter": "E",
+                "text": "Expressão pictográfica da pólis."
+              }
+            ]
+          }
+        ]
       }
     ]
   },

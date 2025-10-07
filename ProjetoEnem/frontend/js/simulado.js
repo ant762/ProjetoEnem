@@ -217,18 +217,19 @@ async function finishExam() {
               const correctAltObj = q.alternatives?.find(a => a.letter === correctLetter);
               const chosenAltObj = q.alternatives?.find(a => a.letter === chosen);
 
-              return {
-                number: q.number || i + 1,
-                title: q.title || '',
-                context: q.context || '',
-                chosen: chosen,
-                chosenText: chosenAltObj ? chosenAltObj.text : null,
-                correctLetter,
-                correctText: correctAltObj ? correctAltObj.text : null,
-                isCorrect: chosen && chosen.toUpperCase() === correctLetter.toUpperCase(),
-                alternatives: q.alternatives?.map(a => ({
-                  letter: a.letter,
-                  text: a.text
+                return {
+                  number: q.number || i + 1,
+                  title: q.title || '',              // titulo
+                  context: q.context || '',          // contexto
+                  question: q.question || '',        // pergunta
+                  chosen: chosen,
+                  chosenText: chosenAltObj ? chosenAltObj.text : null,
+                  correctLetter,
+                  correctText: correctAltObj ? correctAltObj.text : null,
+                  isCorrect: chosen && chosen.toUpperCase() === correctLetter.toUpperCase(),
+                  alternatives: q.alternatives?.map(a => ({
+                    letter: a.letter,
+                    text: a.text  
                 })) || []
               };
             })

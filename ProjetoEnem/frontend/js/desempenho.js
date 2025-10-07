@@ -191,7 +191,9 @@ function mostrarDetalheProva(result) {
     ? result.details.map(q => `
         <div class="questao-detalhe">
           <h4>Questão ${q.number}</h4>
-          <p>${tranformaEmImagem(q.context) || '(sem enunciado)'}</p>
+          <p>${transformaEmImagem(q.context)}</p>
+          ${q.title ? `<p><strong>${q.title}</strong></p>` : ''}
+          ${q.question ? `<p><strong>Pergunta:</strong> ${transformaEmImagem(q.question)}</p>` : ''}
           <ul>
             ${q.alternatives?.map(a => `
               <li ${a.letter === q.correctLetter ? 'style="color:#22c55e;font-weight:bold;"' : ''}>
@@ -218,9 +220,14 @@ function mostrarDetalheProva(result) {
   const detalhesDiv = document.getElementById('detalhesProva');
   detalhesDiv.innerHTML = '';
   detalhesDiv.appendChild(container);
-  function tranformaEmImagem(text) {
+  function transformaEmImagem(text) {
     if (!text) return '';
-    return text.replace(/!\[.*?\]\((.*?)\)/g, (_, url) => `<img src="${url}" alt="imagem" style="max-width:100%;height:auto;">`);
+    text = text.replace(/!\[.*?\]\((https?:\/\/[^\s)]+)\)/gi,
+      (_, url) => `<img src="${url}" style="max-width:100%;height:auto;">`);
+      text = text.replace(/(^|\s)(https?:\/\/[^\s)]+?\.(?:png|jpe?g|gif))(\s|$)/gi,
+      (_, p1, url, p3) => `${p1}<img src="${url}" style="max-width:100%;height:auto;">${p3}`);
+  
+    return text;
   }
   
 }

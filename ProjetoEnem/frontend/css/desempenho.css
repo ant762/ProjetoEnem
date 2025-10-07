@@ -17,6 +17,26 @@
   padding: 0;
 }
 
+.exam-details {
+  background: #1e293b;
+  color: #f8fafc;
+  padding: 1rem 1.5rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+.exam-details .questao-detalhe {
+  margin-bottom: 1rem;
+  padding: .5rem 1rem;
+  border-left: 4px solid #334155;
+}
+.exam-details ul {
+  list-style: none;
+  padding-left: 0;
+}
+.exam-details li {
+  margin: 2px 0;
+}
+
 html, body {
   height: 100%;
   background: 

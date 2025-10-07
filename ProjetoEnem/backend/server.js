@@ -4,15 +4,15 @@ const path = require('path');
 const cors = require('cors');
 
 const app = express();
-app.use(express.json());
 
-// cors, que pelo visto serve pra segurança. coloquei duas origins porque sla, pelo visto dava erro. nunca entendi essa bagaça mas sei que é necessário
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://127.0.0.1:3000', 'http://localhost:5500', 'http://127.0.0.1:5500'],
+  origin: ['http://localhost:5500', 'http://127.0.0.1:5500'],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
 }));
+
+app.use(express.json({ limit: '10mb' })); // já corrige o erro 413 também!
 
 const ARQUIVOS_USUARIO = path.join(__dirname, 'users.json');  
 
@@ -72,12 +72,14 @@ app.post('/api/saveResult', (req, res) => {
   user.history = user.history || [];
   user.history.push({
     date: result.date || new Date().toISOString(),
+    year: result.year || new Date().getFullYear(),
     discipline: result.discipline || '',
     score: result.score || 0,
     correct: result.correct || 0,
     wrong: result.wrong || 0,
     blank: result.blank || 0,
-    total: result.total || 0
+    total: result.total || 0,
+    details: Array.isArray(result.details) ? result.details : []
   });
 
   saveUsers(users);

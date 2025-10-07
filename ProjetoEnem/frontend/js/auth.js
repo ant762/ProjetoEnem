@@ -31,7 +31,7 @@ formularioDeLogin.addEventListener('submit', async (evento) => {
     if (!resposta.ok) return mostrarMensagem(respostaJSON.error || 'erro ao logar', true); // se der erro no login, mostra a mensagem de erro
 
     // se tudo deu certo, salva os dados do usuário localmente
-    localStorage.setItem('simulado_usuario', JSON.stringify(respostaJSON.usuario)); // salva no localStorage
+    localStorage.setItem('simulado_user', JSON.stringify(respostaJSON.user)); // salva no localStorage
     mostrarMensagem('login bem sucedido, redirecionando...'); // mostra que deu certo
     setTimeout(() => window.location.href = 'dashboard.html', 700); // depois de um tempo, redireciona o usuário para o dashboard
   } catch (erro) {

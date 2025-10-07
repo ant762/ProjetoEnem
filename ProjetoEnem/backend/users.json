@@ -4,33 +4,6 @@
     "password": "admin123",
     "history": [
       {
-        "date": "2025-09-15T19:26:12.913Z",
-        "discipline": "linguagens",
-        "score": 0,
-        "correct": 0,
-        "wrong": 0,
-        "blank": 90,
-        "total": 90
-      },
-      {
-        "date": "2025-09-15T19:39:38.588Z",
-        "discipline": "linguagens",
-        "score": 0,
-        "correct": 0,
-        "wrong": 0,
-        "blank": 90,
-        "total": 90
-      },
-      {
-        "date": "2025-09-15T19:46:18.523Z",
-        "discipline": "linguagens",
-        "score": 0,
-        "correct": 0,
-        "wrong": 0,
-        "blank": 90,
-        "total": 90
-      },
-      {
         "date": "2025-09-15T19:46:41.602Z",
         "discipline": "linguagens",
         "score": 11,

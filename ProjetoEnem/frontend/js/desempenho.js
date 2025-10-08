@@ -190,7 +190,6 @@ function mostrarDetalheProva(result) {
   const detalhesHTML = result.details && Array.isArray(result.details)
     ? result.details.map(q => `
         <div class="questao-detalhe">
-          <h4>Questão ${q.number}</h4>
           <p>${transformaEmImagem(q.context)}</p>
           ${q.title ? `<p><strong>${q.title}</strong></p>` : ''}
           ${q.question ? `<p><strong>Pergunta:</strong> ${transformaEmImagem(q.question)}</p>` : ''}
